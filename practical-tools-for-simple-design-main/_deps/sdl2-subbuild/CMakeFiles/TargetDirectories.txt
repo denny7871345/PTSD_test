@@ -1,0 +1,3 @@
+/mnt/c/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main/_deps/sdl2-subbuild/CMakeFiles/sdl2-populate.dir
+/mnt/c/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main/_deps/sdl2-subbuild/CMakeFiles/edit_cache.dir
+/mnt/c/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main/_deps/sdl2-subbuild/CMakeFiles/rebuild_cache.dir

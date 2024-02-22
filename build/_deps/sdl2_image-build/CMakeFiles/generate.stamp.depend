@@ -1,0 +1,11 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main/lib/sdl2_image/CMakeLists.txt
+C:/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main/lib/sdl2_image/cmake/CommonFindSDL2.cmake
+C:/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main/lib/sdl2_image/cmake/FindSDL2main.cmake
+C:/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main/lib/sdl2_image/cmake/PrivateSdlFunctions.cmake

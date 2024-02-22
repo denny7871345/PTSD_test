@@ -1,0 +1,42 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"lib/sdl2_ttf/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "SDL2_ttf::@bbdb2daa5afc341778ea"
+		},
+		{
+			"id" : "glfont::@bbdb2daa5afc341778ea"
+		},
+		{
+			"id" : "showfont::@bbdb2daa5afc341778ea"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@bbdb2daa5afc341778ea",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "_deps/sdl2_ttf-build",
+		"source" : "lib/sdl2_ttf"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

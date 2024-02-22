@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\USER\Desktop\OOP\build\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\USER\Desktop\OOP\build\_deps\sdl2-build\Debug\sdl_headers_copy</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\build\AudioTest.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\build\Sample.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\build\Tests.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\build\glew32d.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\build\glewinfo.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\build\glfont.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\build\playmus.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\build\playwave.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\build\showanim.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\build\showfont.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\build\showimage.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\build\visualinfo.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\USER\Desktop\OOP\build\Debug\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

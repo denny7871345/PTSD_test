@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/sdl2-subbuild/CMakeFiles/sdl2-populate"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/sdl2-subbuild/CMakeFiles/5667cb8c7902b91ce41e5d5ac06bfb62/sdl2-populate.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/sdl2-subbuild/CMakeFiles/3c7095ad9ab651265753603b7e2f3143/sdl2-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/sdl2-subbuild/CMakeFiles/0ca448c7134e11c057cc6301dc84ab01/sdl2-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/sdl2-subbuild/CMakeFiles/0ca448c7134e11c057cc6301dc84ab01/sdl2-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/sdl2-subbuild/CMakeFiles/0ca448c7134e11c057cc6301dc84ab01/sdl2-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/sdl2-subbuild/CMakeFiles/0ca448c7134e11c057cc6301dc84ab01/sdl2-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/sdl2-subbuild/CMakeFiles/0ca448c7134e11c057cc6301dc84ab01/sdl2-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/sdl2-subbuild/CMakeFiles/0ca448c7134e11c057cc6301dc84ab01/sdl2-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/sdl2-subbuild/CMakeFiles/0ca448c7134e11c057cc6301dc84ab01/sdl2-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/sdl2-subbuild/CMakeFiles/0ca448c7134e11c057cc6301dc84ab01/sdl2-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sdl2-populate"
+		],
+		"name" : "sdl2-populate"
+	}
+}

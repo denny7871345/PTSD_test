@@ -1,0 +1,152 @@
+^C:\USERS\USER\DESKTOP\OOP\BUILD\_DEPS\SDL2_TTF-SUBBUILD\CMAKEFILES\0D1B29D55365BB714D8C726C0E181AD6\SDL2_TTF-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/USER/Desktop/OOP/build/_deps/sdl2_ttf-subbuild/sdl2_ttf-populate-prefix/tmp/sdl2_ttf-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/USER/Desktop/OOP/build/_deps/sdl2_ttf-subbuild/sdl2_ttf-populate-prefix/src/sdl2_ttf-populate-stamp/Debug/sdl2_ttf-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USER\DESKTOP\OOP\BUILD\_DEPS\SDL2_TTF-SUBBUILD\CMAKEFILES\0D1B29D55365BB714D8C726C0E181AD6\SDL2_TTF-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/USER/Desktop/OOP/build/_deps/sdl2_ttf-subbuild/sdl2_ttf-populate-prefix/src/sdl2_ttf-populate-stamp/download-sdl2_ttf-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/USER/Desktop/OOP/build/_deps/sdl2_ttf-subbuild/sdl2_ttf-populate-prefix/src/sdl2_ttf-populate-stamp/verify-sdl2_ttf-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/USER/Desktop/OOP/build/_deps/sdl2_ttf-subbuild/sdl2_ttf-populate-prefix/src/sdl2_ttf-populate-stamp/extract-sdl2_ttf-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/USER/Desktop/OOP/build/_deps/sdl2_ttf-subbuild/sdl2_ttf-populate-prefix/src/sdl2_ttf-populate-stamp/Debug/sdl2_ttf-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USER\DESKTOP\OOP\BUILD\_DEPS\SDL2_TTF-SUBBUILD\CMAKEFILES\0D1B29D55365BB714D8C726C0E181AD6\SDL2_TTF-POPULATE-UPDATE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/USER/Desktop/OOP/build/_deps/sdl2_ttf-subbuild/sdl2_ttf-populate-prefix/src/sdl2_ttf-populate-stamp/Debug/sdl2_ttf-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USER\DESKTOP\OOP\BUILD\_DEPS\SDL2_TTF-SUBBUILD\CMAKEFILES\0D1B29D55365BB714D8C726C0E181AD6\SDL2_TTF-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/USER/Desktop/OOP/build/_deps/sdl2_ttf-subbuild/sdl2_ttf-populate-prefix/src/sdl2_ttf-populate-stamp/Debug/sdl2_ttf-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USER\DESKTOP\OOP\BUILD\_DEPS\SDL2_TTF-SUBBUILD\CMAKEFILES\0D1B29D55365BB714D8C726C0E181AD6\SDL2_TTF-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\USER\Desktop\OOP\build\_deps\sdl2_ttf-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/USER/Desktop/OOP/build/_deps/sdl2_ttf-subbuild/sdl2_ttf-populate-prefix/src/sdl2_ttf-populate-stamp/Debug/sdl2_ttf-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USER\DESKTOP\OOP\BUILD\_DEPS\SDL2_TTF-SUBBUILD\CMAKEFILES\0D1B29D55365BB714D8C726C0E181AD6\SDL2_TTF-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\USER\Desktop\OOP\build\_deps\sdl2_ttf-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/USER/Desktop/OOP/build/_deps/sdl2_ttf-subbuild/sdl2_ttf-populate-prefix/src/sdl2_ttf-populate-stamp/Debug/sdl2_ttf-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USER\DESKTOP\OOP\BUILD\_DEPS\SDL2_TTF-SUBBUILD\CMAKEFILES\0D1B29D55365BB714D8C726C0E181AD6\SDL2_TTF-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\USER\Desktop\OOP\build\_deps\sdl2_ttf-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/USER/Desktop/OOP/build/_deps/sdl2_ttf-subbuild/sdl2_ttf-populate-prefix/src/sdl2_ttf-populate-stamp/Debug/sdl2_ttf-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USER\DESKTOP\OOP\BUILD\_DEPS\SDL2_TTF-SUBBUILD\CMAKEFILES\0D1B29D55365BB714D8C726C0E181AD6\SDL2_TTF-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\USER\Desktop\OOP\build\_deps\sdl2_ttf-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/USER/Desktop/OOP/build/_deps/sdl2_ttf-subbuild/sdl2_ttf-populate-prefix/src/sdl2_ttf-populate-stamp/Debug/sdl2_ttf-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USER\DESKTOP\OOP\BUILD\_DEPS\SDL2_TTF-SUBBUILD\CMAKEFILES\5A9FA926C12735FA1241B29638DF0D54\SDL2_TTF-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/USER/Desktop/OOP/build/_deps/sdl2_ttf-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/USER/Desktop/OOP/build/_deps/sdl2_ttf-subbuild/CMakeFiles/Debug/sdl2_ttf-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/USER/Desktop/OOP/build/_deps/sdl2_ttf-subbuild/sdl2_ttf-populate-prefix/src/sdl2_ttf-populate-stamp/Debug/sdl2_ttf-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USER\DESKTOP\OOP\BUILD\_DEPS\SDL2_TTF-SUBBUILD\CMAKEFILES\2342CA272328AC2C9D08C602761243A2\SDL2_TTF-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USER\DESKTOP\OOP\BUILD\_DEPS\SDL2_TTF-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/USER/Desktop/OOP/build/_deps/sdl2_ttf-subbuild -BC:/Users/USER/Desktop/OOP/build/_deps/sdl2_ttf-subbuild --check-stamp-file C:/Users/USER/Desktop/OOP/build/_deps/sdl2_ttf-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

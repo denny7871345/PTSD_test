@@ -1,0 +1,42 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"lib/sdl2_mixer/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "SDL2_mixer::@82d5866ba632f3b21364"
+		},
+		{
+			"id" : "playmus::@82d5866ba632f3b21364"
+		},
+		{
+			"id" : "playwave::@82d5866ba632f3b21364"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@82d5866ba632f3b21364",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "_deps/sdl2_mixer-build",
+		"source" : "lib/sdl2_mixer"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

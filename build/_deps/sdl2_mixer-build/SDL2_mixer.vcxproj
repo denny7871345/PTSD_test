@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|win32">
+      <Configuration>Debug</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|win32">
+      <Configuration>Release</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EEC1FECE-A5C8-3BA2-9502-60C97AC88CC4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>win32</Platform>
+    <ProjectName>SDL2_mixer</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\USER\Desktop\OOP\build\_deps\sdl2_mixer-build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">SDL2_mixer.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">SDL2_mixer-staticd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\USER\Desktop\OOP\build\_deps\sdl2_mixer-build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">SDL2_mixer.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|win32'">SDL2_mixer-static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\USER\Desktop\OOP\build\_deps\sdl2_mixer-build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">SDL2_mixer.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">SDL2_mixer-static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\USER\Desktop\OOP\build\_deps\sdl2_mixer-build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">SDL2_mixer.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">SDL2_mixer-static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\include;C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src;C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src\codecs;C:\Users\USER\Desktop\OOP\build\_deps\sdl2-build\include;C:\Users\USER\Desktop\OOP\build\_deps\sdl2-build\include-config-debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;BUILD_SDL;SDL_BUILD_MAJOR_VERSION=2;SDL_BUILD_MINOR_VERSION=6;SDL_BUILD_MICRO_VERSION=3;MUSIC_MP3_DRMP3;MUSIC_WAV;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;BUILD_SDL;SDL_BUILD_MAJOR_VERSION=2;SDL_BUILD_MINOR_VERSION=6;SDL_BUILD_MICRO_VERSION=3;MUSIC_MP3_DRMP3;MUSIC_WAV;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\include;C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src;C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src\codecs;C:\Users\USER\Desktop\OOP\build\_deps\sdl2-build\include;C:\Users\USER\Desktop\OOP\build\_deps\sdl2-build\include-config-debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\include;C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src;C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src\codecs;C:\Users\USER\Desktop\OOP\build\_deps\sdl2-build\include;C:\Users\USER\Desktop\OOP\build\_deps\sdl2-build\include-config-debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\include;C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src;C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src\codecs;C:\Users\USER\Desktop\OOP\build\_deps\sdl2-build\include;C:\Users\USER\Desktop\OOP\build\_deps\sdl2-build\include-config-release;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BUILD_SDL;SDL_BUILD_MAJOR_VERSION=2;SDL_BUILD_MINOR_VERSION=6;SDL_BUILD_MICRO_VERSION=3;MUSIC_MP3_DRMP3;MUSIC_WAV;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BUILD_SDL;SDL_BUILD_MAJOR_VERSION=2;SDL_BUILD_MINOR_VERSION=6;SDL_BUILD_MICRO_VERSION=3;MUSIC_MP3_DRMP3;MUSIC_WAV;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\include;C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src;C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src\codecs;C:\Users\USER\Desktop\OOP\build\_deps\sdl2-build\include;C:\Users\USER\Desktop\OOP\build\_deps\sdl2-build\include-config-release;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\include;C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src;C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src\codecs;C:\Users\USER\Desktop\OOP\build\_deps\sdl2-build\include;C:\Users\USER\Desktop\OOP\build\_deps\sdl2-build\include-config-release;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\include;C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src;C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src\codecs;C:\Users\USER\Desktop\OOP\build\_deps\sdl2-build\include;C:\Users\USER\Desktop\OOP\build\_deps\sdl2-build\include-config-minsizerel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BUILD_SDL;SDL_BUILD_MAJOR_VERSION=2;SDL_BUILD_MINOR_VERSION=6;SDL_BUILD_MICRO_VERSION=3;MUSIC_MP3_DRMP3;MUSIC_WAV;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BUILD_SDL;SDL_BUILD_MAJOR_VERSION=2;SDL_BUILD_MINOR_VERSION=6;SDL_BUILD_MICRO_VERSION=3;MUSIC_MP3_DRMP3;MUSIC_WAV;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\include;C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src;C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src\codecs;C:\Users\USER\Desktop\OOP\build\_deps\sdl2-build\include;C:\Users\USER\Desktop\OOP\build\_deps\sdl2-build\include-config-minsizerel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\include;C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src;C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src\codecs;C:\Users\USER\Desktop\OOP\build\_deps\sdl2-build\include;C:\Users\USER\Desktop\OOP\build\_deps\sdl2-build\include-config-minsizerel;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\include;C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src;C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src\codecs;C:\Users\USER\Desktop\OOP\build\_deps\sdl2-build\include;C:\Users\USER\Desktop\OOP\build\_deps\sdl2-build\include-config-relwithdebinfo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BUILD_SDL;SDL_BUILD_MAJOR_VERSION=2;SDL_BUILD_MINOR_VERSION=6;SDL_BUILD_MICRO_VERSION=3;MUSIC_MP3_DRMP3;MUSIC_WAV;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;BUILD_SDL;SDL_BUILD_MAJOR_VERSION=2;SDL_BUILD_MINOR_VERSION=6;SDL_BUILD_MICRO_VERSION=3;MUSIC_MP3_DRMP3;MUSIC_WAV;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\include;C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src;C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src\codecs;C:\Users\USER\Desktop\OOP\build\_deps\sdl2-build\include;C:\Users\USER\Desktop\OOP\build\_deps\sdl2-build\include-config-relwithdebinfo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\include;C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src;C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src\codecs;C:\Users\USER\Desktop\OOP\build\_deps\sdl2-build\include;C:\Users\USER\Desktop\OOP\build\_deps\sdl2-build\include-config-relwithdebinfo;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main/lib/sdl2_mixer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main -BC:/Users/USER/Desktop/OOP/build --check-stamp-file C:/Users/USER/Desktop/OOP/build/_deps/sdl2_mixer-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\cmake\CommonFindSDL2.cmake;C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\cmake\FindSDL2main.cmake;C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\cmake\PrivateSdlFunctions.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\USER\Desktop\OOP\build\_deps\sdl2_mixer-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule C:/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main/lib/sdl2_mixer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main -BC:/Users/USER/Desktop/OOP/build --check-stamp-file C:/Users/USER/Desktop/OOP/build/_deps/sdl2_mixer-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\cmake\CommonFindSDL2.cmake;C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\cmake\FindSDL2main.cmake;C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\cmake\PrivateSdlFunctions.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\USER\Desktop\OOP\build\_deps\sdl2_mixer-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule C:/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main/lib/sdl2_mixer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main -BC:/Users/USER/Desktop/OOP/build --check-stamp-file C:/Users/USER/Desktop/OOP/build/_deps/sdl2_mixer-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\cmake\CommonFindSDL2.cmake;C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\cmake\FindSDL2main.cmake;C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\cmake\PrivateSdlFunctions.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\USER\Desktop\OOP\build\_deps\sdl2_mixer-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule C:/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main/lib/sdl2_mixer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main -BC:/Users/USER/Desktop/OOP/build --check-stamp-file C:/Users/USER/Desktop/OOP/build/_deps/sdl2_mixer-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\cmake\CommonFindSDL2.cmake;C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\cmake\FindSDL2main.cmake;C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\cmake\PrivateSdlFunctions.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\USER\Desktop\OOP\build\_deps\sdl2_mixer-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src\codecs\load_aiff.c" />
+    <ClCompile Include="C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src\codecs\load_voc.c" />
+    <ClCompile Include="C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src\codecs\mp3utils.c" />
+    <ClCompile Include="C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src\codecs\music_cmd.c" />
+    <ClCompile Include="C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src\codecs\music_drflac.c" />
+    <ClCompile Include="C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src\codecs\music_drmp3.c" />
+    <ClCompile Include="C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src\codecs\music_flac.c" />
+    <ClCompile Include="C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src\codecs\music_fluidsynth.c" />
+    <ClCompile Include="C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src\codecs\music_modplug.c" />
+    <ClCompile Include="C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src\codecs\music_mpg123.c" />
+    <ClCompile Include="C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src\codecs\music_nativemidi.c" />
+    <ClCompile Include="C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src\codecs\music_ogg.c" />
+    <ClCompile Include="C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src\codecs\music_ogg_stb.c" />
+    <ClCompile Include="C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src\codecs\music_opus.c" />
+    <ClCompile Include="C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src\codecs\music_timidity.c" />
+    <ClCompile Include="C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src\codecs\music_wav.c" />
+    <ClCompile Include="C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src\codecs\music_xmp.c" />
+    <ClCompile Include="C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src\effect_position.c" />
+    <ClCompile Include="C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src\effect_stereoreverse.c" />
+    <ClCompile Include="C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src\effects_internal.c" />
+    <ClCompile Include="C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src\mixer.c" />
+    <ClCompile Include="C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src\music.c" />
+    <ClCompile Include="C:\Users\USER\Desktop\OOP\practical-tools-for-simple-design-main\lib\sdl2_mixer\src\utils.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\USER\Desktop\OOP\build\ZERO_CHECK.vcxproj">
+      <Project>{AF6A2083-9C59-31F8-AC38-F4D35A3D056B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\USER\Desktop\OOP\build\_deps\sdl2-build\SDL2-static.vcxproj">
+      <Project>{70CFDD20-7A0D-36A0-AED3-75EC98E76817}</Project>
+      <Name>SDL2-static</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\USER\Desktop\OOP\build\_deps\sdl2_ttf-subbuild\CMakeFiles\0d1b29d55365bb714d8c726c0e181ad6\sdl2_ttf-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\USER\Desktop\OOP\build\_deps\sdl2_ttf-subbuild\CMakeFiles\0d1b29d55365bb714d8c726c0e181ad6\sdl2_ttf-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\USER\Desktop\OOP\build\_deps\sdl2_ttf-subbuild\CMakeFiles\0d1b29d55365bb714d8c726c0e181ad6\sdl2_ttf-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\USER\Desktop\OOP\build\_deps\sdl2_ttf-subbuild\CMakeFiles\0d1b29d55365bb714d8c726c0e181ad6\sdl2_ttf-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\USER\Desktop\OOP\build\_deps\sdl2_ttf-subbuild\CMakeFiles\0d1b29d55365bb714d8c726c0e181ad6\sdl2_ttf-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\USER\Desktop\OOP\build\_deps\sdl2_ttf-subbuild\CMakeFiles\0d1b29d55365bb714d8c726c0e181ad6\sdl2_ttf-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\USER\Desktop\OOP\build\_deps\sdl2_ttf-subbuild\CMakeFiles\0d1b29d55365bb714d8c726c0e181ad6\sdl2_ttf-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\USER\Desktop\OOP\build\_deps\sdl2_ttf-subbuild\CMakeFiles\0d1b29d55365bb714d8c726c0e181ad6\sdl2_ttf-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\USER\Desktop\OOP\build\_deps\sdl2_ttf-subbuild\CMakeFiles\5a9fa926c12735fa1241b29638df0d54\sdl2_ttf-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\USER\Desktop\OOP\build\_deps\sdl2_ttf-subbuild\CMakeFiles\2342ca272328ac2c9d08c602761243a2\sdl2_ttf-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\USER\Desktop\OOP\build\_deps\sdl2_ttf-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\USER\Desktop\OOP\build\_deps\sdl2_ttf-subbuild\CMakeFiles\sdl2_ttf-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E037B742-F647-3B28-95F6-D9B340B1C669}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

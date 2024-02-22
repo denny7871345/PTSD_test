@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/glew-subbuild/CMakeFiles/glew-populate"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/glew-subbuild/CMakeFiles/dcfea266a8114d758d1906c6950b1e67/glew-populate.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/glew-subbuild/CMakeFiles/83b78b00476e98be25f81c1034de9f5c/glew-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/glew-subbuild/CMakeFiles/7422edc469d57c2ef40e7f2cf0f117e3/glew-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/glew-subbuild/CMakeFiles/7422edc469d57c2ef40e7f2cf0f117e3/glew-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/glew-subbuild/CMakeFiles/7422edc469d57c2ef40e7f2cf0f117e3/glew-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/glew-subbuild/CMakeFiles/7422edc469d57c2ef40e7f2cf0f117e3/glew-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/glew-subbuild/CMakeFiles/7422edc469d57c2ef40e7f2cf0f117e3/glew-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/glew-subbuild/CMakeFiles/7422edc469d57c2ef40e7f2cf0f117e3/glew-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/glew-subbuild/CMakeFiles/7422edc469d57c2ef40e7f2cf0f117e3/glew-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/glew-subbuild/CMakeFiles/7422edc469d57c2ef40e7f2cf0f117e3/glew-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glew-populate"
+		],
+		"name" : "glew-populate"
+	}
+}

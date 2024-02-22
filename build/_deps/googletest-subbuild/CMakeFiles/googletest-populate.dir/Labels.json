@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/googletest-subbuild/CMakeFiles/904c0aba9816efd78ebeb94d613a990f/googletest-populate.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/googletest-subbuild/CMakeFiles/84b88e1e22ba693f89bd5aab354a1003/googletest-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/googletest-subbuild/CMakeFiles/8f4676fee307b45bff0453e4279c670d/googletest-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/googletest-subbuild/CMakeFiles/8f4676fee307b45bff0453e4279c670d/googletest-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/googletest-subbuild/CMakeFiles/8f4676fee307b45bff0453e4279c670d/googletest-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/googletest-subbuild/CMakeFiles/8f4676fee307b45bff0453e4279c670d/googletest-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/googletest-subbuild/CMakeFiles/8f4676fee307b45bff0453e4279c670d/googletest-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/googletest-subbuild/CMakeFiles/8f4676fee307b45bff0453e4279c670d/googletest-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/googletest-subbuild/CMakeFiles/8f4676fee307b45bff0453e4279c670d/googletest-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/googletest-subbuild/CMakeFiles/8f4676fee307b45bff0453e4279c670d/googletest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest-populate"
+		],
+		"name" : "googletest-populate"
+	}
+}

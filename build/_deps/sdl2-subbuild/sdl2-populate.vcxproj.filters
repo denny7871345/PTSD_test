@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\USER\Desktop\OOP\build\_deps\sdl2-subbuild\CMakeFiles\0ca448c7134e11c057cc6301dc84ab01\sdl2-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\USER\Desktop\OOP\build\_deps\sdl2-subbuild\CMakeFiles\0ca448c7134e11c057cc6301dc84ab01\sdl2-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\USER\Desktop\OOP\build\_deps\sdl2-subbuild\CMakeFiles\0ca448c7134e11c057cc6301dc84ab01\sdl2-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\USER\Desktop\OOP\build\_deps\sdl2-subbuild\CMakeFiles\0ca448c7134e11c057cc6301dc84ab01\sdl2-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\USER\Desktop\OOP\build\_deps\sdl2-subbuild\CMakeFiles\0ca448c7134e11c057cc6301dc84ab01\sdl2-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\USER\Desktop\OOP\build\_deps\sdl2-subbuild\CMakeFiles\0ca448c7134e11c057cc6301dc84ab01\sdl2-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\USER\Desktop\OOP\build\_deps\sdl2-subbuild\CMakeFiles\0ca448c7134e11c057cc6301dc84ab01\sdl2-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\USER\Desktop\OOP\build\_deps\sdl2-subbuild\CMakeFiles\0ca448c7134e11c057cc6301dc84ab01\sdl2-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\USER\Desktop\OOP\build\_deps\sdl2-subbuild\CMakeFiles\3c7095ad9ab651265753603b7e2f3143\sdl2-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\USER\Desktop\OOP\build\_deps\sdl2-subbuild\CMakeFiles\5667cb8c7902b91ce41e5d5ac06bfb62\sdl2-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\USER\Desktop\OOP\build\_deps\sdl2-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\USER\Desktop\OOP\build\_deps\sdl2-subbuild\CMakeFiles\sdl2-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{41495152-FAA4-3020-BE97-DCC77BAF323C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

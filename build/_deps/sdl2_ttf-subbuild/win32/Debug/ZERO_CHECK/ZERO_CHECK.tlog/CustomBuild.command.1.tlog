@@ -1,0 +1,10 @@
+^C:\USERS\USER\DESKTOP\OOP\BUILD\_DEPS\SDL2_TTF-SUBBUILD\CMAKEFILES\2342CA272328AC2C9D08C602761243A2\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/USER/Desktop/OOP/build/_deps/sdl2_ttf-subbuild -BC:/Users/USER/Desktop/OOP/build/_deps/sdl2_ttf-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/USER/Desktop/OOP/build/_deps/sdl2_ttf-subbuild/sdl2_ttf-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

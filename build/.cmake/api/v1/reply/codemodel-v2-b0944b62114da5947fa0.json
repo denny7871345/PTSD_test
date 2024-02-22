@@ -1,0 +1,2972 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						9,
+						12
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						5,
+						12,
+						19,
+						20,
+						21
+					]
+				},
+				{
+					"build" : "_deps/sdl2-build",
+					"jsonFile" : "directory-_deps.sdl2-build-Debug-647eb24766197b9ce204.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "lib/sdl2",
+					"targetIndexes" : 
+					[
+						11,
+						13,
+						16,
+						18,
+						33,
+						38
+					]
+				},
+				{
+					"build" : "_deps/sdl2_image-build",
+					"jsonFile" : "directory-_deps.sdl2_image-build-Debug-292e232fe68beb5e5486.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "lib/sdl2_image",
+					"targetIndexes" : 
+					[
+						0,
+						14,
+						34,
+						36
+					]
+				},
+				{
+					"build" : "_deps/sdl2_ttf-build",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sdl2_ttf-build-Debug-f7772deb6a247e855968.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "lib/sdl2_ttf",
+					"targetIndexes" : 
+					[
+						2,
+						17,
+						26,
+						35
+					]
+				},
+				{
+					"build" : "_deps/sdl2_ttf-build/external/freetype",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sdl2_ttf-build.external.freetype-Debug-5107423de43cbf789f21.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 4,
+					"source" : "lib/sdl2_ttf/external/freetype",
+					"targetIndexes" : 
+					[
+						3,
+						22
+					]
+				},
+				{
+					"build" : "_deps/sdl2_mixer-build",
+					"jsonFile" : "directory-_deps.sdl2_mixer-build-Debug-87816ebfe9679ab9fe3c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "lib/sdl2_mixer",
+					"targetIndexes" : 
+					[
+						4,
+						15,
+						31,
+						32
+					]
+				},
+				{
+					"build" : "_deps/spdlog-build",
+					"jsonFile" : "directory-_deps.spdlog-build-Debug-f665232a9e6e76e72208.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "lib/spdlog",
+					"targetIndexes" : 
+					[
+						8,
+						37
+					]
+				},
+				{
+					"build" : "_deps/glm-build",
+					"childIndexes" : 
+					[
+						8
+					],
+					"jsonFile" : "directory-_deps.glm-build-Debug-50f54b216b0daf3f9de3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "lib/glm",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "_deps/glm-build/glm",
+					"jsonFile" : "directory-_deps.glm-build.glm-Debug-bcf8cf7510abb64fe405.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 7,
+					"source" : "lib/glm/glm"
+				},
+				{
+					"build" : "_deps/googletest-build",
+					"childIndexes" : 
+					[
+						10
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.googletest-build-Debug-ca310e4ee65ccb0210f7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "lib/googletest",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "_deps/googletest-build/googlemock",
+					"childIndexes" : 
+					[
+						11
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.googletest-build.googlemock-Debug-a712092a8723969aff17.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 9,
+					"source" : "lib/googletest/googlemock",
+					"targetIndexes" : 
+					[
+						6,
+						27,
+						28
+					]
+				},
+				{
+					"build" : "_deps/googletest-build/googletest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.googletest-build.googletest-Debug-9dc7141335aef467c651.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 10,
+					"source" : "lib/googletest/googletest",
+					"targetIndexes" : 
+					[
+						1,
+						29,
+						30
+					]
+				},
+				{
+					"build" : "lib/glew/build/cmake",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.glew.build.cmake-Debug-3090ca51bb84ebbe22f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 11,
+					"source" : "lib/glew/build/cmake",
+					"targetIndexes" : 
+					[
+						9,
+						23,
+						24,
+						25,
+						39
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						11
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PracticalToolsForSimpleDesign",
+					"targetIndexes" : 
+					[
+						5,
+						12,
+						19,
+						20,
+						21
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SDL2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11,
+						13,
+						16,
+						18,
+						33,
+						38
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "SDL2_image",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						14,
+						34,
+						36
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						4
+					],
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "SDL2_ttf",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						17,
+						26,
+						35
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "freetype",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						3,
+						22
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "SDL2_mixer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						15,
+						31,
+						32
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "spdlog",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						37
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7,
+						8
+					],
+					"name" : "glm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						9
+					],
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						10
+					],
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "gmock",
+					"parentIndex" : 8,
+					"targetIndexes" : 
+					[
+						6,
+						27,
+						28
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "gtest",
+					"parentIndex" : 9,
+					"targetIndexes" : 
+					[
+						1,
+						29,
+						30
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "glew",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9,
+						23,
+						24,
+						25,
+						39
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@de341d98faad78faee90",
+					"jsonFile" : "target-ALL_BUILD-Debug-c5d2d3389c17806d22b0.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ALL_BUILD::@1ea2dfc0605fe3ab2a3f",
+					"jsonFile" : "target-ALL_BUILD-Debug-d8141f7cab846077dec4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@bbdb2daa5afc341778ea",
+					"jsonFile" : "target-ALL_BUILD-Debug-9a77224c6d604c357d22.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@1caf39cd73602fb8f135",
+					"jsonFile" : "target-ALL_BUILD-Debug-e6437ce0db612391f0cb.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@82d5866ba632f3b21364",
+					"jsonFile" : "target-ALL_BUILD-Debug-fba54ca711fffc06f0ac.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-db72e4ecc20c50bf465a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ALL_BUILD::@0f7bb11d64f3678238c7",
+					"jsonFile" : "target-ALL_BUILD-Debug-d5d79f46978c439c5cf5.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ALL_BUILD::@48bffba6e5d11dae7b4c",
+					"jsonFile" : "target-ALL_BUILD-Debug-09e2b83817e621b4d026.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@eb35cfce7893ccfeff1e",
+					"jsonFile" : "target-ALL_BUILD-Debug-5a7c68e2e0d01917eafe.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "ALL_BUILD::@b46fb324963b76809ed6",
+					"jsonFile" : "target-ALL_BUILD-Debug-0861af3e96030a64bf0b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ALL_BUILD::@f0697b77e45c2bae8283",
+					"jsonFile" : "target-ALL_BUILD-Debug-477b1fd48500aaca8915.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@45bd952f1071c035638d",
+					"jsonFile" : "target-ALL_BUILD-Debug-f910435535d833d38d2b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "AudioTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AudioTest-Debug-d4d31973a72950286e66.json",
+					"name" : "AudioTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL2-static::@45bd952f1071c035638d",
+					"jsonFile" : "target-SDL2-static-Debug-17e50a769331e0d58311.json",
+					"name" : "SDL2-static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SDL2_image::@de341d98faad78faee90",
+					"jsonFile" : "target-SDL2_image-Debug-341273651885635bec99.json",
+					"name" : "SDL2_image",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "SDL2_mixer::@82d5866ba632f3b21364",
+					"jsonFile" : "target-SDL2_mixer-Debug-94ea8378cab8ce0c365d.json",
+					"name" : "SDL2_mixer",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL2_test::@45bd952f1071c035638d",
+					"jsonFile" : "target-SDL2_test-Debug-40971e9c1cbb3df93050.json",
+					"name" : "SDL2_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "SDL2_ttf::@bbdb2daa5afc341778ea",
+					"jsonFile" : "target-SDL2_ttf-Debug-09dd94c6fc56dcc6fd64.json",
+					"name" : "SDL2_ttf",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL2main::@45bd952f1071c035638d",
+					"jsonFile" : "target-SDL2main-Debug-c71e8423ab3f2334bcc1.json",
+					"name" : "SDL2main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Sample::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Sample-Debug-2432b78f13397f053f73.json",
+					"name" : "Sample",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Tests-Debug-0f07d072971d58973cf4.json",
+					"name" : "Tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-6bccc02e2eb7300ddc19.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "freetype::@1caf39cd73602fb8f135",
+					"jsonFile" : "target-freetype-Debug-89e78fd543ec42d3b0f5.json",
+					"name" : "freetype",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "glew::@b46fb324963b76809ed6",
+					"jsonFile" : "target-glew-Debug-9e28c2de1e54ef508e16.json",
+					"name" : "glew",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "glew_s::@b46fb324963b76809ed6",
+					"jsonFile" : "target-glew_s-Debug-7ee60d15a7f1835a27cc.json",
+					"name" : "glew_s",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "glewinfo::@b46fb324963b76809ed6",
+					"jsonFile" : "target-glewinfo-Debug-f2790c7ca727ec3a802c.json",
+					"name" : "glewinfo",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glfont::@bbdb2daa5afc341778ea",
+					"jsonFile" : "target-glfont-Debug-f583e7867ef415971276.json",
+					"name" : "glfont",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "gmock::@0f7bb11d64f3678238c7",
+					"jsonFile" : "target-gmock-Debug-d7d1bbdd724a9ca0a1a7.json",
+					"name" : "gmock",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "gmock_main::@0f7bb11d64f3678238c7",
+					"jsonFile" : "target-gmock_main-Debug-3345a534275a122d459b.json",
+					"name" : "gmock_main",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "gtest::@1ea2dfc0605fe3ab2a3f",
+					"jsonFile" : "target-gtest-Debug-4962c087a6061d9a43e0.json",
+					"name" : "gtest",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "gtest_main::@1ea2dfc0605fe3ab2a3f",
+					"jsonFile" : "target-gtest_main-Debug-9837270cfc387a2eb90f.json",
+					"name" : "gtest_main",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "playmus::@82d5866ba632f3b21364",
+					"jsonFile" : "target-playmus-Debug-d7481558c1097203bd3e.json",
+					"name" : "playmus",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "playwave::@82d5866ba632f3b21364",
+					"jsonFile" : "target-playwave-Debug-931000b60ee90a81066e.json",
+					"name" : "playwave",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sdl_headers_copy::@45bd952f1071c035638d",
+					"jsonFile" : "target-sdl_headers_copy-Debug-ab3fa724fd403a09d2fd.json",
+					"name" : "sdl_headers_copy",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "showanim::@de341d98faad78faee90",
+					"jsonFile" : "target-showanim-Debug-8b0074642af589d2f5f2.json",
+					"name" : "showanim",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "showfont::@bbdb2daa5afc341778ea",
+					"jsonFile" : "target-showfont-Debug-e3edf20dd319bf7d9cb2.json",
+					"name" : "showfont",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "showimage::@de341d98faad78faee90",
+					"jsonFile" : "target-showimage-Debug-2ebc3f469695167cd869.json",
+					"name" : "showimage",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "spdlog::@eb35cfce7893ccfeff1e",
+					"jsonFile" : "target-spdlog-Debug-b659858c9cbd8b3a3a2b.json",
+					"name" : "spdlog",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@45bd952f1071c035638d",
+					"jsonFile" : "target-uninstall-Debug-dd208178fd6a0be3b30d.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "visualinfo::@b46fb324963b76809ed6",
+					"jsonFile" : "target-visualinfo-Debug-fa79a1ed360b8c73419f.json",
+					"name" : "visualinfo",
+					"projectIndex" : 11
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						9,
+						12
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						5,
+						12,
+						19,
+						20,
+						21
+					]
+				},
+				{
+					"build" : "_deps/sdl2-build",
+					"jsonFile" : "directory-_deps.sdl2-build-Release-647eb24766197b9ce204.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "lib/sdl2",
+					"targetIndexes" : 
+					[
+						11,
+						13,
+						16,
+						18,
+						33,
+						38
+					]
+				},
+				{
+					"build" : "_deps/sdl2_image-build",
+					"jsonFile" : "directory-_deps.sdl2_image-build-Release-292e232fe68beb5e5486.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "lib/sdl2_image",
+					"targetIndexes" : 
+					[
+						0,
+						14,
+						34,
+						36
+					]
+				},
+				{
+					"build" : "_deps/sdl2_ttf-build",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sdl2_ttf-build-Release-f7772deb6a247e855968.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "lib/sdl2_ttf",
+					"targetIndexes" : 
+					[
+						2,
+						17,
+						26,
+						35
+					]
+				},
+				{
+					"build" : "_deps/sdl2_ttf-build/external/freetype",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sdl2_ttf-build.external.freetype-Release-99ffbd9543df7c6153a1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 4,
+					"source" : "lib/sdl2_ttf/external/freetype",
+					"targetIndexes" : 
+					[
+						3,
+						22
+					]
+				},
+				{
+					"build" : "_deps/sdl2_mixer-build",
+					"jsonFile" : "directory-_deps.sdl2_mixer-build-Release-87816ebfe9679ab9fe3c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "lib/sdl2_mixer",
+					"targetIndexes" : 
+					[
+						4,
+						15,
+						31,
+						32
+					]
+				},
+				{
+					"build" : "_deps/spdlog-build",
+					"jsonFile" : "directory-_deps.spdlog-build-Release-f665232a9e6e76e72208.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "lib/spdlog",
+					"targetIndexes" : 
+					[
+						8,
+						37
+					]
+				},
+				{
+					"build" : "_deps/glm-build",
+					"childIndexes" : 
+					[
+						8
+					],
+					"jsonFile" : "directory-_deps.glm-build-Release-50f54b216b0daf3f9de3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "lib/glm",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "_deps/glm-build/glm",
+					"jsonFile" : "directory-_deps.glm-build.glm-Release-bcf8cf7510abb64fe405.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 7,
+					"source" : "lib/glm/glm"
+				},
+				{
+					"build" : "_deps/googletest-build",
+					"childIndexes" : 
+					[
+						10
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.googletest-build-Release-ca310e4ee65ccb0210f7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "lib/googletest",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "_deps/googletest-build/googlemock",
+					"childIndexes" : 
+					[
+						11
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.googletest-build.googlemock-Release-c1b68f6208469be051da.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 9,
+					"source" : "lib/googletest/googlemock",
+					"targetIndexes" : 
+					[
+						6,
+						27,
+						28
+					]
+				},
+				{
+					"build" : "_deps/googletest-build/googletest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.googletest-build.googletest-Release-2444142be34beb23adf0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 10,
+					"source" : "lib/googletest/googletest",
+					"targetIndexes" : 
+					[
+						1,
+						29,
+						30
+					]
+				},
+				{
+					"build" : "lib/glew/build/cmake",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.glew.build.cmake-Release-13c937ff8195c5834557.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 11,
+					"source" : "lib/glew/build/cmake",
+					"targetIndexes" : 
+					[
+						9,
+						23,
+						24,
+						25,
+						39
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						11
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PracticalToolsForSimpleDesign",
+					"targetIndexes" : 
+					[
+						5,
+						12,
+						19,
+						20,
+						21
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SDL2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11,
+						13,
+						16,
+						18,
+						33,
+						38
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "SDL2_image",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						14,
+						34,
+						36
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						4
+					],
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "SDL2_ttf",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						17,
+						26,
+						35
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "freetype",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						3,
+						22
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "SDL2_mixer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						15,
+						31,
+						32
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "spdlog",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						37
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7,
+						8
+					],
+					"name" : "glm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						9
+					],
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						10
+					],
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "gmock",
+					"parentIndex" : 8,
+					"targetIndexes" : 
+					[
+						6,
+						27,
+						28
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "gtest",
+					"parentIndex" : 9,
+					"targetIndexes" : 
+					[
+						1,
+						29,
+						30
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "glew",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9,
+						23,
+						24,
+						25,
+						39
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@de341d98faad78faee90",
+					"jsonFile" : "target-ALL_BUILD-Release-c5d2d3389c17806d22b0.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ALL_BUILD::@1ea2dfc0605fe3ab2a3f",
+					"jsonFile" : "target-ALL_BUILD-Release-d8141f7cab846077dec4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@bbdb2daa5afc341778ea",
+					"jsonFile" : "target-ALL_BUILD-Release-9a77224c6d604c357d22.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@1caf39cd73602fb8f135",
+					"jsonFile" : "target-ALL_BUILD-Release-e6437ce0db612391f0cb.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@82d5866ba632f3b21364",
+					"jsonFile" : "target-ALL_BUILD-Release-fba54ca711fffc06f0ac.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-db72e4ecc20c50bf465a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ALL_BUILD::@0f7bb11d64f3678238c7",
+					"jsonFile" : "target-ALL_BUILD-Release-d5d79f46978c439c5cf5.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ALL_BUILD::@48bffba6e5d11dae7b4c",
+					"jsonFile" : "target-ALL_BUILD-Release-09e2b83817e621b4d026.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@eb35cfce7893ccfeff1e",
+					"jsonFile" : "target-ALL_BUILD-Release-5a7c68e2e0d01917eafe.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "ALL_BUILD::@b46fb324963b76809ed6",
+					"jsonFile" : "target-ALL_BUILD-Release-0861af3e96030a64bf0b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ALL_BUILD::@f0697b77e45c2bae8283",
+					"jsonFile" : "target-ALL_BUILD-Release-477b1fd48500aaca8915.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@45bd952f1071c035638d",
+					"jsonFile" : "target-ALL_BUILD-Release-f910435535d833d38d2b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "AudioTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AudioTest-Release-6acff64fa4d4eeb310cb.json",
+					"name" : "AudioTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL2-static::@45bd952f1071c035638d",
+					"jsonFile" : "target-SDL2-static-Release-7c14faa6f5903f9da3ee.json",
+					"name" : "SDL2-static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SDL2_image::@de341d98faad78faee90",
+					"jsonFile" : "target-SDL2_image-Release-baa217928efab8883244.json",
+					"name" : "SDL2_image",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "SDL2_mixer::@82d5866ba632f3b21364",
+					"jsonFile" : "target-SDL2_mixer-Release-215d2f7f0b8c73f287f0.json",
+					"name" : "SDL2_mixer",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL2_test::@45bd952f1071c035638d",
+					"jsonFile" : "target-SDL2_test-Release-40fa6180bbf76fad05df.json",
+					"name" : "SDL2_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "SDL2_ttf::@bbdb2daa5afc341778ea",
+					"jsonFile" : "target-SDL2_ttf-Release-b1fd5a06f1afe0522eeb.json",
+					"name" : "SDL2_ttf",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL2main::@45bd952f1071c035638d",
+					"jsonFile" : "target-SDL2main-Release-249b380d4c0ecdce20ea.json",
+					"name" : "SDL2main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Sample::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Sample-Release-8aa84dd21b7ced4669a5.json",
+					"name" : "Sample",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Tests-Release-50a8bfdf104ca9b5429e.json",
+					"name" : "Tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-6bccc02e2eb7300ddc19.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "freetype::@1caf39cd73602fb8f135",
+					"jsonFile" : "target-freetype-Release-882ebe1af84e2bc2efb1.json",
+					"name" : "freetype",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "glew::@b46fb324963b76809ed6",
+					"jsonFile" : "target-glew-Release-ce5f069c92702fdf5780.json",
+					"name" : "glew",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "glew_s::@b46fb324963b76809ed6",
+					"jsonFile" : "target-glew_s-Release-3d0d41b2f0d15c287f1c.json",
+					"name" : "glew_s",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "glewinfo::@b46fb324963b76809ed6",
+					"jsonFile" : "target-glewinfo-Release-90e38ea23b602dd72cab.json",
+					"name" : "glewinfo",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glfont::@bbdb2daa5afc341778ea",
+					"jsonFile" : "target-glfont-Release-418ced219b6e49a51c8e.json",
+					"name" : "glfont",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "gmock::@0f7bb11d64f3678238c7",
+					"jsonFile" : "target-gmock-Release-f02b53b9119220e2d0a6.json",
+					"name" : "gmock",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "gmock_main::@0f7bb11d64f3678238c7",
+					"jsonFile" : "target-gmock_main-Release-8f7148f8e4f14b3c90c2.json",
+					"name" : "gmock_main",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "gtest::@1ea2dfc0605fe3ab2a3f",
+					"jsonFile" : "target-gtest-Release-bf2b14ebd66c148ce4ed.json",
+					"name" : "gtest",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "gtest_main::@1ea2dfc0605fe3ab2a3f",
+					"jsonFile" : "target-gtest_main-Release-8eac3ed7dc7e33a89fb5.json",
+					"name" : "gtest_main",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "playmus::@82d5866ba632f3b21364",
+					"jsonFile" : "target-playmus-Release-c3cfd1fff56b9cb09811.json",
+					"name" : "playmus",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "playwave::@82d5866ba632f3b21364",
+					"jsonFile" : "target-playwave-Release-fdd13246356ee4f90fc0.json",
+					"name" : "playwave",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sdl_headers_copy::@45bd952f1071c035638d",
+					"jsonFile" : "target-sdl_headers_copy-Release-ab3fa724fd403a09d2fd.json",
+					"name" : "sdl_headers_copy",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "showanim::@de341d98faad78faee90",
+					"jsonFile" : "target-showanim-Release-4bcab9ca16dfdd7818db.json",
+					"name" : "showanim",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "showfont::@bbdb2daa5afc341778ea",
+					"jsonFile" : "target-showfont-Release-319951aaf65d9d2440d3.json",
+					"name" : "showfont",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "showimage::@de341d98faad78faee90",
+					"jsonFile" : "target-showimage-Release-b1329ef4485520651ed3.json",
+					"name" : "showimage",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "spdlog::@eb35cfce7893ccfeff1e",
+					"jsonFile" : "target-spdlog-Release-3120cfac900445a50496.json",
+					"name" : "spdlog",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@45bd952f1071c035638d",
+					"jsonFile" : "target-uninstall-Release-dd208178fd6a0be3b30d.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "visualinfo::@b46fb324963b76809ed6",
+					"jsonFile" : "target-visualinfo-Release-1a79904694ae68a22485.json",
+					"name" : "visualinfo",
+					"projectIndex" : 11
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						9,
+						12
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						5,
+						12,
+						19,
+						20,
+						21
+					]
+				},
+				{
+					"build" : "_deps/sdl2-build",
+					"jsonFile" : "directory-_deps.sdl2-build-MinSizeRel-647eb24766197b9ce204.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "lib/sdl2",
+					"targetIndexes" : 
+					[
+						11,
+						13,
+						16,
+						18,
+						33,
+						38
+					]
+				},
+				{
+					"build" : "_deps/sdl2_image-build",
+					"jsonFile" : "directory-_deps.sdl2_image-build-MinSizeRel-292e232fe68beb5e5486.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "lib/sdl2_image",
+					"targetIndexes" : 
+					[
+						0,
+						14,
+						34,
+						36
+					]
+				},
+				{
+					"build" : "_deps/sdl2_ttf-build",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sdl2_ttf-build-MinSizeRel-f7772deb6a247e855968.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "lib/sdl2_ttf",
+					"targetIndexes" : 
+					[
+						2,
+						17,
+						26,
+						35
+					]
+				},
+				{
+					"build" : "_deps/sdl2_ttf-build/external/freetype",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sdl2_ttf-build.external.freetype-MinSizeRel-d669bccffb1d3c6ea078.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 4,
+					"source" : "lib/sdl2_ttf/external/freetype",
+					"targetIndexes" : 
+					[
+						3,
+						22
+					]
+				},
+				{
+					"build" : "_deps/sdl2_mixer-build",
+					"jsonFile" : "directory-_deps.sdl2_mixer-build-MinSizeRel-87816ebfe9679ab9fe3c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "lib/sdl2_mixer",
+					"targetIndexes" : 
+					[
+						4,
+						15,
+						31,
+						32
+					]
+				},
+				{
+					"build" : "_deps/spdlog-build",
+					"jsonFile" : "directory-_deps.spdlog-build-MinSizeRel-f665232a9e6e76e72208.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "lib/spdlog",
+					"targetIndexes" : 
+					[
+						8,
+						37
+					]
+				},
+				{
+					"build" : "_deps/glm-build",
+					"childIndexes" : 
+					[
+						8
+					],
+					"jsonFile" : "directory-_deps.glm-build-MinSizeRel-50f54b216b0daf3f9de3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "lib/glm",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "_deps/glm-build/glm",
+					"jsonFile" : "directory-_deps.glm-build.glm-MinSizeRel-bcf8cf7510abb64fe405.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 7,
+					"source" : "lib/glm/glm"
+				},
+				{
+					"build" : "_deps/googletest-build",
+					"childIndexes" : 
+					[
+						10
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.googletest-build-MinSizeRel-ca310e4ee65ccb0210f7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "lib/googletest",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "_deps/googletest-build/googlemock",
+					"childIndexes" : 
+					[
+						11
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.googletest-build.googlemock-MinSizeRel-3ed540b2e5fd300db4b5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 9,
+					"source" : "lib/googletest/googlemock",
+					"targetIndexes" : 
+					[
+						6,
+						27,
+						28
+					]
+				},
+				{
+					"build" : "_deps/googletest-build/googletest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.googletest-build.googletest-MinSizeRel-1b0442c25a263f5949a8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 10,
+					"source" : "lib/googletest/googletest",
+					"targetIndexes" : 
+					[
+						1,
+						29,
+						30
+					]
+				},
+				{
+					"build" : "lib/glew/build/cmake",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.glew.build.cmake-MinSizeRel-00db73eb60a6ce9e4ba8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 11,
+					"source" : "lib/glew/build/cmake",
+					"targetIndexes" : 
+					[
+						9,
+						23,
+						24,
+						25,
+						39
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						11
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PracticalToolsForSimpleDesign",
+					"targetIndexes" : 
+					[
+						5,
+						12,
+						19,
+						20,
+						21
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SDL2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11,
+						13,
+						16,
+						18,
+						33,
+						38
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "SDL2_image",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						14,
+						34,
+						36
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						4
+					],
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "SDL2_ttf",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						17,
+						26,
+						35
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "freetype",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						3,
+						22
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "SDL2_mixer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						15,
+						31,
+						32
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "spdlog",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						37
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7,
+						8
+					],
+					"name" : "glm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						9
+					],
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						10
+					],
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "gmock",
+					"parentIndex" : 8,
+					"targetIndexes" : 
+					[
+						6,
+						27,
+						28
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "gtest",
+					"parentIndex" : 9,
+					"targetIndexes" : 
+					[
+						1,
+						29,
+						30
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "glew",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9,
+						23,
+						24,
+						25,
+						39
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@de341d98faad78faee90",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-c5d2d3389c17806d22b0.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ALL_BUILD::@1ea2dfc0605fe3ab2a3f",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-d8141f7cab846077dec4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@bbdb2daa5afc341778ea",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-9a77224c6d604c357d22.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@1caf39cd73602fb8f135",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-e6437ce0db612391f0cb.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@82d5866ba632f3b21364",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-fba54ca711fffc06f0ac.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-db72e4ecc20c50bf465a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ALL_BUILD::@0f7bb11d64f3678238c7",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-d5d79f46978c439c5cf5.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ALL_BUILD::@48bffba6e5d11dae7b4c",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-09e2b83817e621b4d026.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@eb35cfce7893ccfeff1e",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-5a7c68e2e0d01917eafe.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "ALL_BUILD::@b46fb324963b76809ed6",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-0861af3e96030a64bf0b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ALL_BUILD::@f0697b77e45c2bae8283",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-477b1fd48500aaca8915.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@45bd952f1071c035638d",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-f910435535d833d38d2b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "AudioTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AudioTest-MinSizeRel-765083c3a15773e726f0.json",
+					"name" : "AudioTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL2-static::@45bd952f1071c035638d",
+					"jsonFile" : "target-SDL2-static-MinSizeRel-c6fc085a6d9af5828a88.json",
+					"name" : "SDL2-static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SDL2_image::@de341d98faad78faee90",
+					"jsonFile" : "target-SDL2_image-MinSizeRel-f46aafbe878217bc745d.json",
+					"name" : "SDL2_image",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "SDL2_mixer::@82d5866ba632f3b21364",
+					"jsonFile" : "target-SDL2_mixer-MinSizeRel-e84aa123a91e51b841d7.json",
+					"name" : "SDL2_mixer",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL2_test::@45bd952f1071c035638d",
+					"jsonFile" : "target-SDL2_test-MinSizeRel-af53427625137d27bf93.json",
+					"name" : "SDL2_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "SDL2_ttf::@bbdb2daa5afc341778ea",
+					"jsonFile" : "target-SDL2_ttf-MinSizeRel-e8d57b1183afd3c37649.json",
+					"name" : "SDL2_ttf",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL2main::@45bd952f1071c035638d",
+					"jsonFile" : "target-SDL2main-MinSizeRel-038cea07ebd59d8ed045.json",
+					"name" : "SDL2main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Sample::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Sample-MinSizeRel-8636f6775de7b6f846c1.json",
+					"name" : "Sample",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Tests-MinSizeRel-99e3aecc7527f4ddf901.json",
+					"name" : "Tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-6bccc02e2eb7300ddc19.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "freetype::@1caf39cd73602fb8f135",
+					"jsonFile" : "target-freetype-MinSizeRel-2419579a216c3fadacdd.json",
+					"name" : "freetype",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "glew::@b46fb324963b76809ed6",
+					"jsonFile" : "target-glew-MinSizeRel-e81ee2d5835755693794.json",
+					"name" : "glew",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "glew_s::@b46fb324963b76809ed6",
+					"jsonFile" : "target-glew_s-MinSizeRel-9b21c2ff3cea8bc70b55.json",
+					"name" : "glew_s",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "glewinfo::@b46fb324963b76809ed6",
+					"jsonFile" : "target-glewinfo-MinSizeRel-2c3e5247d0c0815c7d35.json",
+					"name" : "glewinfo",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glfont::@bbdb2daa5afc341778ea",
+					"jsonFile" : "target-glfont-MinSizeRel-ff206eb25dadcb8660eb.json",
+					"name" : "glfont",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "gmock::@0f7bb11d64f3678238c7",
+					"jsonFile" : "target-gmock-MinSizeRel-8a76ac9dc8d433a309ad.json",
+					"name" : "gmock",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "gmock_main::@0f7bb11d64f3678238c7",
+					"jsonFile" : "target-gmock_main-MinSizeRel-a74ba01d2dbb62087fc5.json",
+					"name" : "gmock_main",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "gtest::@1ea2dfc0605fe3ab2a3f",
+					"jsonFile" : "target-gtest-MinSizeRel-fefa7eda8ec09fcf6cac.json",
+					"name" : "gtest",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "gtest_main::@1ea2dfc0605fe3ab2a3f",
+					"jsonFile" : "target-gtest_main-MinSizeRel-a0068d8fda6c5e21a649.json",
+					"name" : "gtest_main",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "playmus::@82d5866ba632f3b21364",
+					"jsonFile" : "target-playmus-MinSizeRel-37b594089b12c0d640f1.json",
+					"name" : "playmus",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "playwave::@82d5866ba632f3b21364",
+					"jsonFile" : "target-playwave-MinSizeRel-ce658f63b575177a7318.json",
+					"name" : "playwave",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sdl_headers_copy::@45bd952f1071c035638d",
+					"jsonFile" : "target-sdl_headers_copy-MinSizeRel-ab3fa724fd403a09d2fd.json",
+					"name" : "sdl_headers_copy",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "showanim::@de341d98faad78faee90",
+					"jsonFile" : "target-showanim-MinSizeRel-5752ca5d0c61e32c6f32.json",
+					"name" : "showanim",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "showfont::@bbdb2daa5afc341778ea",
+					"jsonFile" : "target-showfont-MinSizeRel-577e2b8d4977b58d6b3a.json",
+					"name" : "showfont",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "showimage::@de341d98faad78faee90",
+					"jsonFile" : "target-showimage-MinSizeRel-cfbe4f8b1c0e8de2ec76.json",
+					"name" : "showimage",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "spdlog::@eb35cfce7893ccfeff1e",
+					"jsonFile" : "target-spdlog-MinSizeRel-b339bd3979bdbb7835ca.json",
+					"name" : "spdlog",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@45bd952f1071c035638d",
+					"jsonFile" : "target-uninstall-MinSizeRel-dd208178fd6a0be3b30d.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "visualinfo::@b46fb324963b76809ed6",
+					"jsonFile" : "target-visualinfo-MinSizeRel-9e5c48c68850178f41b4.json",
+					"name" : "visualinfo",
+					"projectIndex" : 11
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						9,
+						12
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						5,
+						12,
+						19,
+						20,
+						21
+					]
+				},
+				{
+					"build" : "_deps/sdl2-build",
+					"jsonFile" : "directory-_deps.sdl2-build-RelWithDebInfo-647eb24766197b9ce204.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "lib/sdl2",
+					"targetIndexes" : 
+					[
+						11,
+						13,
+						16,
+						18,
+						33,
+						38
+					]
+				},
+				{
+					"build" : "_deps/sdl2_image-build",
+					"jsonFile" : "directory-_deps.sdl2_image-build-RelWithDebInfo-292e232fe68beb5e5486.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "lib/sdl2_image",
+					"targetIndexes" : 
+					[
+						0,
+						14,
+						34,
+						36
+					]
+				},
+				{
+					"build" : "_deps/sdl2_ttf-build",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sdl2_ttf-build-RelWithDebInfo-f7772deb6a247e855968.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "lib/sdl2_ttf",
+					"targetIndexes" : 
+					[
+						2,
+						17,
+						26,
+						35
+					]
+				},
+				{
+					"build" : "_deps/sdl2_ttf-build/external/freetype",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.sdl2_ttf-build.external.freetype-RelWithDebInfo-7a69a5b3e5d6c1f03bbd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 4,
+					"source" : "lib/sdl2_ttf/external/freetype",
+					"targetIndexes" : 
+					[
+						3,
+						22
+					]
+				},
+				{
+					"build" : "_deps/sdl2_mixer-build",
+					"jsonFile" : "directory-_deps.sdl2_mixer-build-RelWithDebInfo-87816ebfe9679ab9fe3c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "lib/sdl2_mixer",
+					"targetIndexes" : 
+					[
+						4,
+						15,
+						31,
+						32
+					]
+				},
+				{
+					"build" : "_deps/spdlog-build",
+					"jsonFile" : "directory-_deps.spdlog-build-RelWithDebInfo-f665232a9e6e76e72208.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "lib/spdlog",
+					"targetIndexes" : 
+					[
+						8,
+						37
+					]
+				},
+				{
+					"build" : "_deps/glm-build",
+					"childIndexes" : 
+					[
+						8
+					],
+					"jsonFile" : "directory-_deps.glm-build-RelWithDebInfo-50f54b216b0daf3f9de3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "lib/glm",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "_deps/glm-build/glm",
+					"jsonFile" : "directory-_deps.glm-build.glm-RelWithDebInfo-bcf8cf7510abb64fe405.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 7,
+					"source" : "lib/glm/glm"
+				},
+				{
+					"build" : "_deps/googletest-build",
+					"childIndexes" : 
+					[
+						10
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.googletest-build-RelWithDebInfo-ca310e4ee65ccb0210f7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "lib/googletest",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "_deps/googletest-build/googlemock",
+					"childIndexes" : 
+					[
+						11
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.googletest-build.googlemock-RelWithDebInfo-778c8a8ca75dc7858301.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 9,
+					"source" : "lib/googletest/googlemock",
+					"targetIndexes" : 
+					[
+						6,
+						27,
+						28
+					]
+				},
+				{
+					"build" : "_deps/googletest-build/googletest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.googletest-build.googletest-RelWithDebInfo-f955be2c9f0c11b50d91.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 10,
+					"source" : "lib/googletest/googletest",
+					"targetIndexes" : 
+					[
+						1,
+						29,
+						30
+					]
+				},
+				{
+					"build" : "lib/glew/build/cmake",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.glew.build.cmake-RelWithDebInfo-3a5cdf5e0074f9dbfd39.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 11,
+					"source" : "lib/glew/build/cmake",
+					"targetIndexes" : 
+					[
+						9,
+						23,
+						24,
+						25,
+						39
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						11
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PracticalToolsForSimpleDesign",
+					"targetIndexes" : 
+					[
+						5,
+						12,
+						19,
+						20,
+						21
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SDL2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11,
+						13,
+						16,
+						18,
+						33,
+						38
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "SDL2_image",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						14,
+						34,
+						36
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						4
+					],
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "SDL2_ttf",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						17,
+						26,
+						35
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "freetype",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						3,
+						22
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "SDL2_mixer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						15,
+						31,
+						32
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "spdlog",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						37
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7,
+						8
+					],
+					"name" : "glm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						9
+					],
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						10
+					],
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "gmock",
+					"parentIndex" : 8,
+					"targetIndexes" : 
+					[
+						6,
+						27,
+						28
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "gtest",
+					"parentIndex" : 9,
+					"targetIndexes" : 
+					[
+						1,
+						29,
+						30
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "glew",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9,
+						23,
+						24,
+						25,
+						39
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@de341d98faad78faee90",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-c5d2d3389c17806d22b0.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ALL_BUILD::@1ea2dfc0605fe3ab2a3f",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-d8141f7cab846077dec4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@bbdb2daa5afc341778ea",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-9a77224c6d604c357d22.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@1caf39cd73602fb8f135",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-e6437ce0db612391f0cb.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@82d5866ba632f3b21364",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-fba54ca711fffc06f0ac.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-db72e4ecc20c50bf465a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ALL_BUILD::@0f7bb11d64f3678238c7",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-d5d79f46978c439c5cf5.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ALL_BUILD::@48bffba6e5d11dae7b4c",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-09e2b83817e621b4d026.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@eb35cfce7893ccfeff1e",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-5a7c68e2e0d01917eafe.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "ALL_BUILD::@b46fb324963b76809ed6",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-0861af3e96030a64bf0b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ALL_BUILD::@f0697b77e45c2bae8283",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-477b1fd48500aaca8915.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@45bd952f1071c035638d",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-f910435535d833d38d2b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "AudioTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AudioTest-RelWithDebInfo-9afca4c8e798a2773082.json",
+					"name" : "AudioTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL2-static::@45bd952f1071c035638d",
+					"jsonFile" : "target-SDL2-static-RelWithDebInfo-6885dd3df96dca622984.json",
+					"name" : "SDL2-static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SDL2_image::@de341d98faad78faee90",
+					"jsonFile" : "target-SDL2_image-RelWithDebInfo-9246964c25c273e76f85.json",
+					"name" : "SDL2_image",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "SDL2_mixer::@82d5866ba632f3b21364",
+					"jsonFile" : "target-SDL2_mixer-RelWithDebInfo-bea5605d43c888612745.json",
+					"name" : "SDL2_mixer",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL2_test::@45bd952f1071c035638d",
+					"jsonFile" : "target-SDL2_test-RelWithDebInfo-c146ca690aff0c73a86b.json",
+					"name" : "SDL2_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "SDL2_ttf::@bbdb2daa5afc341778ea",
+					"jsonFile" : "target-SDL2_ttf-RelWithDebInfo-0115ed6e7cbc8276df98.json",
+					"name" : "SDL2_ttf",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL2main::@45bd952f1071c035638d",
+					"jsonFile" : "target-SDL2main-RelWithDebInfo-25349e3e22d25845b316.json",
+					"name" : "SDL2main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Sample::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Sample-RelWithDebInfo-a7d7f47cabd0d6aa4534.json",
+					"name" : "Sample",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Tests-RelWithDebInfo-f260e4ab1eae9473cd8b.json",
+					"name" : "Tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-6bccc02e2eb7300ddc19.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "freetype::@1caf39cd73602fb8f135",
+					"jsonFile" : "target-freetype-RelWithDebInfo-d40084483ec5a02ffd43.json",
+					"name" : "freetype",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "glew::@b46fb324963b76809ed6",
+					"jsonFile" : "target-glew-RelWithDebInfo-9eeef9838c5ec296a7b0.json",
+					"name" : "glew",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "glew_s::@b46fb324963b76809ed6",
+					"jsonFile" : "target-glew_s-RelWithDebInfo-6b909d0feaf55dec0ac0.json",
+					"name" : "glew_s",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "glewinfo::@b46fb324963b76809ed6",
+					"jsonFile" : "target-glewinfo-RelWithDebInfo-948af05cb029a13d8a86.json",
+					"name" : "glewinfo",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glfont::@bbdb2daa5afc341778ea",
+					"jsonFile" : "target-glfont-RelWithDebInfo-ef49adcce219261063da.json",
+					"name" : "glfont",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "gmock::@0f7bb11d64f3678238c7",
+					"jsonFile" : "target-gmock-RelWithDebInfo-edb43ebd1ed840337bcc.json",
+					"name" : "gmock",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "gmock_main::@0f7bb11d64f3678238c7",
+					"jsonFile" : "target-gmock_main-RelWithDebInfo-315e6eaf967947d12226.json",
+					"name" : "gmock_main",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "gtest::@1ea2dfc0605fe3ab2a3f",
+					"jsonFile" : "target-gtest-RelWithDebInfo-3418cccc43c6430ff027.json",
+					"name" : "gtest",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "gtest_main::@1ea2dfc0605fe3ab2a3f",
+					"jsonFile" : "target-gtest_main-RelWithDebInfo-0f5d7a200f2812a585c1.json",
+					"name" : "gtest_main",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "playmus::@82d5866ba632f3b21364",
+					"jsonFile" : "target-playmus-RelWithDebInfo-b1a578bed2eeaec80246.json",
+					"name" : "playmus",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "playwave::@82d5866ba632f3b21364",
+					"jsonFile" : "target-playwave-RelWithDebInfo-ce72c33214a3e2e73b3e.json",
+					"name" : "playwave",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sdl_headers_copy::@45bd952f1071c035638d",
+					"jsonFile" : "target-sdl_headers_copy-RelWithDebInfo-ab3fa724fd403a09d2fd.json",
+					"name" : "sdl_headers_copy",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "showanim::@de341d98faad78faee90",
+					"jsonFile" : "target-showanim-RelWithDebInfo-7d0c03a729b24cb79ba6.json",
+					"name" : "showanim",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "showfont::@bbdb2daa5afc341778ea",
+					"jsonFile" : "target-showfont-RelWithDebInfo-53e766f20c95e7f0ac1e.json",
+					"name" : "showfont",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "showimage::@de341d98faad78faee90",
+					"jsonFile" : "target-showimage-RelWithDebInfo-f891905d404f4dd28c27.json",
+					"name" : "showimage",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "spdlog::@eb35cfce7893ccfeff1e",
+					"jsonFile" : "target-spdlog-RelWithDebInfo-f1b93524e2f404ccbb16.json",
+					"name" : "spdlog",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@45bd952f1071c035638d",
+					"jsonFile" : "target-uninstall-RelWithDebInfo-dd208178fd6a0be3b30d.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "visualinfo::@b46fb324963b76809ed6",
+					"jsonFile" : "target-visualinfo-RelWithDebInfo-7ec15b1acf8119ee9a99.json",
+					"name" : "visualinfo",
+					"projectIndex" : 11
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/USER/Desktop/OOP/build",
+		"source" : "C:/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

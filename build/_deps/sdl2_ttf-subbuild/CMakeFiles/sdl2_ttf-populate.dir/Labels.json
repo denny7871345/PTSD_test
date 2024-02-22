@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/sdl2_ttf-subbuild/CMakeFiles/sdl2_ttf-populate"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/sdl2_ttf-subbuild/CMakeFiles/2342ca272328ac2c9d08c602761243a2/sdl2_ttf-populate.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/sdl2_ttf-subbuild/CMakeFiles/5a9fa926c12735fa1241b29638df0d54/sdl2_ttf-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/sdl2_ttf-subbuild/CMakeFiles/0d1b29d55365bb714d8c726c0e181ad6/sdl2_ttf-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/sdl2_ttf-subbuild/CMakeFiles/0d1b29d55365bb714d8c726c0e181ad6/sdl2_ttf-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/sdl2_ttf-subbuild/CMakeFiles/0d1b29d55365bb714d8c726c0e181ad6/sdl2_ttf-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/sdl2_ttf-subbuild/CMakeFiles/0d1b29d55365bb714d8c726c0e181ad6/sdl2_ttf-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/sdl2_ttf-subbuild/CMakeFiles/0d1b29d55365bb714d8c726c0e181ad6/sdl2_ttf-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/sdl2_ttf-subbuild/CMakeFiles/0d1b29d55365bb714d8c726c0e181ad6/sdl2_ttf-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/sdl2_ttf-subbuild/CMakeFiles/0d1b29d55365bb714d8c726c0e181ad6/sdl2_ttf-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/sdl2_ttf-subbuild/CMakeFiles/0d1b29d55365bb714d8c726c0e181ad6/sdl2_ttf-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sdl2_ttf-populate"
+		],
+		"name" : "sdl2_ttf-populate"
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/spdlog-subbuild/CMakeFiles/10389dec6a8d6d3938d5379a59957883/spdlog-populate.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/spdlog-subbuild/CMakeFiles/7ec28e406a02daa93471e3f59873ac2c/spdlog-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/spdlog-subbuild/CMakeFiles/a8b3d13488e708f12c3d04d8bfac9d84/spdlog-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/spdlog-subbuild/CMakeFiles/a8b3d13488e708f12c3d04d8bfac9d84/spdlog-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/spdlog-subbuild/CMakeFiles/a8b3d13488e708f12c3d04d8bfac9d84/spdlog-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/spdlog-subbuild/CMakeFiles/a8b3d13488e708f12c3d04d8bfac9d84/spdlog-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/spdlog-subbuild/CMakeFiles/a8b3d13488e708f12c3d04d8bfac9d84/spdlog-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/spdlog-subbuild/CMakeFiles/a8b3d13488e708f12c3d04d8bfac9d84/spdlog-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/spdlog-subbuild/CMakeFiles/a8b3d13488e708f12c3d04d8bfac9d84/spdlog-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/USER/Desktop/OOP/build/_deps/spdlog-subbuild/CMakeFiles/a8b3d13488e708f12c3d04d8bfac9d84/spdlog-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"spdlog-populate"
+		],
+		"name" : "spdlog-populate"
+	}
+}

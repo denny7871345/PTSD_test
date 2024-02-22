@@ -1,0 +1,1502 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine for .NET Framework 16.11.2+f32259642 版
+      Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+      
+      已經開始建置於 2024/1/17 下午 11:04:49。
+      節點 1 (預設目標) 上的專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.vcxproj"。
+      PrepareForBuild:
+        正在建立目錄 "Debug\\"。
+        正在建立目錄 "Debug\\CompilerIdC.tlog\\"。
+      InitializeBuildStatus:
+        由於指定了 "AlwaysCreate"，因此正在建立 "Debug\\CompilerIdC.tlog\\unsuccessfulbuild"。
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x86\\cl.exe
+      FinalizeBuildStatus:
+        正在刪除檔案 "Debug\\CompilerIdC.tlog\\unsuccessfulbuild"。
+        正在變更時間戳記 "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate"。
+      專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.vcxproj" (預設目標) 建置完成。
+      
+      建置成功。
+          0 個警告
+          0 個錯誤
+      
+      經過時間 00:00:01.13
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/USER/Desktop/OOP/build/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine for .NET Framework 16.11.2+f32259642 版
+      Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+      
+      已經開始建置於 2024/1/17 下午 11:04:51。
+      節點 1 (預設目標) 上的專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj"。
+      PrepareForBuild:
+        正在建立目錄 "Debug\\"。
+        正在建立目錄 "Debug\\CompilerIdCXX.tlog\\"。
+      InitializeBuildStatus:
+        由於指定了 "AlwaysCreate"，因此正在建立 "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild"。
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x86\\cl.exe
+      FinalizeBuildStatus:
+        正在刪除檔案 "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild"。
+        正在變更時間戳記 "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate"。
+      專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (預設目標) 建置完成。
+      
+      建置成功。
+          0 個警告
+          0 個錯誤
+      
+      經過時間 00:00:00.55
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/USER/Desktop/OOP/build/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-zp2zv8"
+      binary: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-zp2zv8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-zp2zv8'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_e7806.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine for .NET Framework 16.11.2+f32259642 版
+        Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+        
+        已經開始建置於 2024/1/17 下午 11:04:52。
+        節點 1 (預設目標) 上的專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zp2zv8\\cmTC_e7806.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_e7806.dir\\Debug\\"。
+          正在建立目錄 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zp2zv8\\Debug\\"。
+          正在建立目錄 "cmTC_e7806.dir\\Debug\\cmTC_e7806.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_e7806.dir\\Debug\\cmTC_e7806.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e7806.dir\\Debug\\\\" /Fd"cmTC_e7806.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30152 for x86
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          CMakeCCompilerABI.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e7806.dir\\Debug\\\\" /Fd"cmTC_e7806.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zp2zv8\\Debug\\cmTC_e7806.exe" /INCREMENTAL /ILK:"cmTC_e7806.dir\\Debug\\cmTC_e7806.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-zp2zv8/Debug/cmTC_e7806.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-zp2zv8/Debug/cmTC_e7806.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_e7806.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_e7806.vcxproj -> C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zp2zv8\\Debug\\cmTC_e7806.exe
+        FinalizeBuildStatus:
+          正在刪除檔案 "cmTC_e7806.dir\\Debug\\cmTC_e7806.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_e7806.dir\\Debug\\cmTC_e7806.tlog\\cmTC_e7806.lastbuildstate"。
+        專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zp2zv8\\cmTC_e7806.vcxproj" (預設目標) 建置完成。
+        
+        建置成功。
+            0 個警告
+            0 個錯誤
+        
+        經過時間 00:00:00.45
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-ec2v2e"
+      binary: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-ec2v2e"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-ec2v2e'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_e9c45.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine for .NET Framework 16.11.2+f32259642 版
+        Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+        
+        已經開始建置於 2024/1/17 下午 11:04:52。
+        節點 1 (預設目標) 上的專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ec2v2e\\cmTC_e9c45.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_e9c45.dir\\Debug\\"。
+          正在建立目錄 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ec2v2e\\Debug\\"。
+          正在建立目錄 "cmTC_e9c45.dir\\Debug\\cmTC_e9c45.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_e9c45.dir\\Debug\\cmTC_e9c45.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e9c45.dir\\Debug\\\\" /Fd"cmTC_e9c45.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30152 for x86
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e9c45.dir\\Debug\\\\" /Fd"cmTC_e9c45.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ec2v2e\\Debug\\cmTC_e9c45.exe" /INCREMENTAL /ILK:"cmTC_e9c45.dir\\Debug\\cmTC_e9c45.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-ec2v2e/Debug/cmTC_e9c45.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-ec2v2e/Debug/cmTC_e9c45.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_e9c45.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_e9c45.vcxproj -> C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ec2v2e\\Debug\\cmTC_e9c45.exe
+        FinalizeBuildStatus:
+          正在刪除檔案 "cmTC_e9c45.dir\\Debug\\cmTC_e9c45.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_e9c45.dir\\Debug\\cmTC_e9c45.tlog\\cmTC_e9c45.lastbuildstate"。
+        專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ec2v2e\\cmTC_e9c45.vcxproj" (預設目標) 建置完成。
+        
+        建置成功。
+            0 個警告
+            0 個錯誤
+        
+        經過時間 00:00:00.46
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "lib/sdl2/CMakeLists.txt:81 (check_symbol_exists)"
+    checks:
+      - "Looking for __GLIBC__"
+    directories:
+      source: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-9ihxfw"
+      binary: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-9ihxfw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main/lib/sdl2/cmake"
+    buildResult:
+      variable: "LIBC_IS_GLIBC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-9ihxfw'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_a02ad.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine for .NET Framework 16.11.2+f32259642 版
+        Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+        
+        已經開始建置於 2024/1/17 下午 11:05:00。
+        節點 1 (預設目標) 上的專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ihxfw\\cmTC_a02ad.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_a02ad.dir\\Debug\\"。
+          正在建立目錄 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ihxfw\\Debug\\"。
+          正在建立目錄 "cmTC_a02ad.dir\\Debug\\cmTC_a02ad.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_a02ad.dir\\Debug\\cmTC_a02ad.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a02ad.dir\\Debug\\\\" /Fd"cmTC_a02ad.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ihxfw\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30152 for x86
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          CheckSymbolExists.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a02ad.dir\\Debug\\\\" /Fd"cmTC_a02ad.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ihxfw\\CheckSymbolExists.c"
+        C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ihxfw\\CheckSymbolExists.c(8,28): error C2065: '__GLIBC__': 未宣告的識別項 [C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ihxfw\\cmTC_a02ad.vcxproj]
+        專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ihxfw\\cmTC_a02ad.vcxproj" (預設目標) 建置完成 -- 失敗。
+        
+        建置失敗。
+        
+        "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ihxfw\\cmTC_a02ad.vcxproj" (預設目標) (1) ->
+        (ClCompile 目標) -> 
+          C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ihxfw\\CheckSymbolExists.c(8,28): error C2065: '__GLIBC__': 未宣告的識別項 [C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9ihxfw\\cmTC_a02ad.vcxproj]
+        
+            0 個警告
+            1 個錯誤
+        
+        經過時間 00:00:00.31
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "lib/sdl2/CMakeLists.txt:953 (check_include_file)"
+    checks:
+      - "Looking for immintrin.h"
+    directories:
+      source: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-zy1pml"
+      binary: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-zy1pml"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main/lib/sdl2/cmake"
+    buildResult:
+      variable: "HAVE_IMMINTRIN_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-zy1pml'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_2cecc.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine for .NET Framework 16.11.2+f32259642 版
+        Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+        
+        已經開始建置於 2024/1/17 下午 11:05:00。
+        節點 1 (預設目標) 上的專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zy1pml\\cmTC_2cecc.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_2cecc.dir\\Debug\\"。
+          正在建立目錄 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zy1pml\\Debug\\"。
+          正在建立目錄 "cmTC_2cecc.dir\\Debug\\cmTC_2cecc.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_2cecc.dir\\Debug\\cmTC_2cecc.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2cecc.dir\\Debug\\\\" /Fd"cmTC_2cecc.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zy1pml\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30152 for x86
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          CheckIncludeFile.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2cecc.dir\\Debug\\\\" /Fd"cmTC_2cecc.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zy1pml\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zy1pml\\Debug\\cmTC_2cecc.exe" /INCREMENTAL /ILK:"cmTC_2cecc.dir\\Debug\\cmTC_2cecc.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-zy1pml/Debug/cmTC_2cecc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-zy1pml/Debug/cmTC_2cecc.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_2cecc.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_2cecc.vcxproj -> C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zy1pml\\Debug\\cmTC_2cecc.exe
+        FinalizeBuildStatus:
+          正在刪除檔案 "cmTC_2cecc.dir\\Debug\\cmTC_2cecc.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_2cecc.dir\\Debug\\cmTC_2cecc.tlog\\cmTC_2cecc.lastbuildstate"。
+        專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zy1pml\\cmTC_2cecc.vcxproj" (預設目標) 建置完成。
+        
+        建置成功。
+            0 個警告
+            0 個錯誤
+        
+        經過時間 00:00:00.47
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "lib/sdl2/CMakeLists.txt:1103 (check_include_file)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-0gv7hn"
+      binary: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-0gv7hn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main/lib/sdl2/cmake"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-0gv7hn'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_b5105.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine for .NET Framework 16.11.2+f32259642 版
+        Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+        
+        已經開始建置於 2024/1/17 下午 11:05:01。
+        節點 1 (預設目標) 上的專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0gv7hn\\cmTC_b5105.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_b5105.dir\\Debug\\"。
+          正在建立目錄 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0gv7hn\\Debug\\"。
+          正在建立目錄 "cmTC_b5105.dir\\Debug\\cmTC_b5105.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_b5105.dir\\Debug\\cmTC_b5105.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b5105.dir\\Debug\\\\" /Fd"cmTC_b5105.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0gv7hn\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30152 for x86
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          CheckIncludeFile.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b5105.dir\\Debug\\\\" /Fd"cmTC_b5105.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0gv7hn\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0gv7hn\\Debug\\cmTC_b5105.exe" /INCREMENTAL /ILK:"cmTC_b5105.dir\\Debug\\cmTC_b5105.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-0gv7hn/Debug/cmTC_b5105.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-0gv7hn/Debug/cmTC_b5105.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_b5105.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_b5105.vcxproj -> C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0gv7hn\\Debug\\cmTC_b5105.exe
+        FinalizeBuildStatus:
+          正在刪除檔案 "cmTC_b5105.dir\\Debug\\cmTC_b5105.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_b5105.dir\\Debug\\cmTC_b5105.tlog\\cmTC_b5105.lastbuildstate"。
+        專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0gv7hn\\cmTC_b5105.vcxproj" (預設目標) 建置完成。
+        
+        建置成功。
+            0 個警告
+            0 個錯誤
+        
+        經過時間 00:00:00.45
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "lib/sdl2/CMakeLists.txt:1676 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_WIN32_CC"
+    directories:
+      source: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-50cow9"
+      binary: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-50cow9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main/lib/sdl2/cmake"
+    buildResult:
+      variable: "HAVE_WIN32_CC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-50cow9'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_b4a30.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine for .NET Framework 16.11.2+f32259642 版
+        Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+        
+        已經開始建置於 2024/1/17 下午 11:05:02。
+        節點 1 (預設目標) 上的專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50cow9\\cmTC_b4a30.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_b4a30.dir\\Debug\\"。
+          正在建立目錄 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50cow9\\Debug\\"。
+          正在建立目錄 "cmTC_b4a30.dir\\Debug\\cmTC_b4a30.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_b4a30.dir\\Debug\\cmTC_b4a30.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_WIN32_CC /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b4a30.dir\\Debug\\\\" /Fd"cmTC_b4a30.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50cow9\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30152 for x86
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          src.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_WIN32_CC /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b4a30.dir\\Debug\\\\" /Fd"cmTC_b4a30.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50cow9\\src.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50cow9\\Debug\\cmTC_b4a30.exe" /INCREMENTAL /ILK:"cmTC_b4a30.dir\\Debug\\cmTC_b4a30.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-50cow9/Debug/cmTC_b4a30.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-50cow9/Debug/cmTC_b4a30.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_b4a30.dir\\Debug\\src.obj
+          cmTC_b4a30.vcxproj -> C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50cow9\\Debug\\cmTC_b4a30.exe
+        FinalizeBuildStatus:
+          正在刪除檔案 "cmTC_b4a30.dir\\Debug\\cmTC_b4a30.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_b4a30.dir\\Debug\\cmTC_b4a30.tlog\\cmTC_b4a30.lastbuildstate"。
+        專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-50cow9\\cmTC_b4a30.vcxproj" (預設目標) 建置完成。
+        
+        建置成功。
+            0 個警告
+            0 個錯誤
+        
+        經過時間 00:00:00.73
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "lib/sdl2/CMakeLists.txt:1718 (check_include_file)"
+    checks:
+      - "Looking for d3d9.h"
+    directories:
+      source: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-lh32vm"
+      binary: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-lh32vm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main/lib/sdl2/cmake"
+    buildResult:
+      variable: "HAVE_D3D_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-lh32vm'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_ce0d5.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine for .NET Framework 16.11.2+f32259642 版
+        Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+        
+        已經開始建置於 2024/1/17 下午 11:05:03。
+        節點 1 (預設目標) 上的專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lh32vm\\cmTC_ce0d5.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_ce0d5.dir\\Debug\\"。
+          正在建立目錄 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lh32vm\\Debug\\"。
+          正在建立目錄 "cmTC_ce0d5.dir\\Debug\\cmTC_ce0d5.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_ce0d5.dir\\Debug\\cmTC_ce0d5.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ce0d5.dir\\Debug\\\\" /Fd"cmTC_ce0d5.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lh32vm\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30152 for x86
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          CheckIncludeFile.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ce0d5.dir\\Debug\\\\" /Fd"cmTC_ce0d5.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lh32vm\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lh32vm\\Debug\\cmTC_ce0d5.exe" /INCREMENTAL /ILK:"cmTC_ce0d5.dir\\Debug\\cmTC_ce0d5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-lh32vm/Debug/cmTC_ce0d5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-lh32vm/Debug/cmTC_ce0d5.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_ce0d5.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_ce0d5.vcxproj -> C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lh32vm\\Debug\\cmTC_ce0d5.exe
+        FinalizeBuildStatus:
+          正在刪除檔案 "cmTC_ce0d5.dir\\Debug\\cmTC_ce0d5.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_ce0d5.dir\\Debug\\cmTC_ce0d5.tlog\\cmTC_ce0d5.lastbuildstate"。
+        專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lh32vm\\cmTC_ce0d5.vcxproj" (預設目標) 建置完成。
+        
+        建置成功。
+            0 個警告
+            0 個錯誤
+        
+        經過時間 00:00:00.66
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "lib/sdl2/CMakeLists.txt:1719 (check_include_file)"
+    checks:
+      - "Looking for d3d11_1.h"
+    directories:
+      source: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-8czuyb"
+      binary: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-8czuyb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main/lib/sdl2/cmake"
+    buildResult:
+      variable: "HAVE_D3D11_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-8czuyb'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_1f969.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine for .NET Framework 16.11.2+f32259642 版
+        Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+        
+        已經開始建置於 2024/1/17 下午 11:05:04。
+        節點 1 (預設目標) 上的專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8czuyb\\cmTC_1f969.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_1f969.dir\\Debug\\"。
+          正在建立目錄 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8czuyb\\Debug\\"。
+          正在建立目錄 "cmTC_1f969.dir\\Debug\\cmTC_1f969.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_1f969.dir\\Debug\\cmTC_1f969.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1f969.dir\\Debug\\\\" /Fd"cmTC_1f969.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8czuyb\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30152 for x86
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          CheckIncludeFile.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1f969.dir\\Debug\\\\" /Fd"cmTC_1f969.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8czuyb\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8czuyb\\Debug\\cmTC_1f969.exe" /INCREMENTAL /ILK:"cmTC_1f969.dir\\Debug\\cmTC_1f969.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-8czuyb/Debug/cmTC_1f969.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-8czuyb/Debug/cmTC_1f969.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_1f969.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_1f969.vcxproj -> C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8czuyb\\Debug\\cmTC_1f969.exe
+        FinalizeBuildStatus:
+          正在刪除檔案 "cmTC_1f969.dir\\Debug\\cmTC_1f969.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_1f969.dir\\Debug\\cmTC_1f969.tlog\\cmTC_1f969.lastbuildstate"。
+        專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8czuyb\\cmTC_1f969.vcxproj" (預設目標) 建置完成。
+        
+        建置成功。
+            0 個警告
+            0 個錯誤
+        
+        經過時間 00:00:00.67
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "lib/sdl2/CMakeLists.txt:1720 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_D3D12_H"
+    directories:
+      source: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-n08yro"
+      binary: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-n08yro"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main/lib/sdl2/cmake"
+    buildResult:
+      variable: "HAVE_D3D12_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-n08yro'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_1a0d1.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine for .NET Framework 16.11.2+f32259642 版
+        Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+        
+        已經開始建置於 2024/1/17 下午 11:05:04。
+        節點 1 (預設目標) 上的專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n08yro\\cmTC_1a0d1.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_1a0d1.dir\\Debug\\"。
+          正在建立目錄 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n08yro\\Debug\\"。
+          正在建立目錄 "cmTC_1a0d1.dir\\Debug\\cmTC_1a0d1.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_1a0d1.dir\\Debug\\cmTC_1a0d1.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_D3D12_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1a0d1.dir\\Debug\\\\" /Fd"cmTC_1a0d1.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n08yro\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30152 for x86
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          src.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_D3D12_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1a0d1.dir\\Debug\\\\" /Fd"cmTC_1a0d1.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n08yro\\src.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n08yro\\Debug\\cmTC_1a0d1.exe" /INCREMENTAL /ILK:"cmTC_1a0d1.dir\\Debug\\cmTC_1a0d1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-n08yro/Debug/cmTC_1a0d1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-n08yro/Debug/cmTC_1a0d1.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_1a0d1.dir\\Debug\\src.obj
+        MSVCRTD.lib(exe_main.obj) : error LNK2019: 在函式 _main"int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中參考了無法解析的外部符號 [C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n08yro\\cmTC_1a0d1.vcxproj]
+        C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n08yro\\Debug\\cmTC_1a0d1.exe : fatal error LNK1120: 1 個無法解析的外部符號 [C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n08yro\\cmTC_1a0d1.vcxproj]
+        專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n08yro\\cmTC_1a0d1.vcxproj" (預設目標) 建置完成 -- 失敗。
+        
+        建置失敗。
+        
+        "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n08yro\\cmTC_1a0d1.vcxproj" (預設目標) (1) ->
+        (Link 目標) -> 
+          MSVCRTD.lib(exe_main.obj) : error LNK2019: 在函式 _main"int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 中參考了無法解析的外部符號 [C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n08yro\\cmTC_1a0d1.vcxproj]
+          C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n08yro\\Debug\\cmTC_1a0d1.exe : fatal error LNK1120: 1 個無法解析的外部符號 [C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n08yro\\cmTC_1a0d1.vcxproj]
+        
+            0 個警告
+            2 個錯誤
+        
+        經過時間 00:00:00.61
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "lib/sdl2/CMakeLists.txt:1728 (check_include_file)"
+    checks:
+      - "Looking for ddraw.h"
+    directories:
+      source: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-5zvja5"
+      binary: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-5zvja5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main/lib/sdl2/cmake"
+    buildResult:
+      variable: "HAVE_DDRAW_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-5zvja5'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_c74a1.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine for .NET Framework 16.11.2+f32259642 版
+        Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+        
+        已經開始建置於 2024/1/17 下午 11:05:05。
+        節點 1 (預設目標) 上的專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5zvja5\\cmTC_c74a1.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_c74a1.dir\\Debug\\"。
+          正在建立目錄 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5zvja5\\Debug\\"。
+          正在建立目錄 "cmTC_c74a1.dir\\Debug\\cmTC_c74a1.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_c74a1.dir\\Debug\\cmTC_c74a1.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c74a1.dir\\Debug\\\\" /Fd"cmTC_c74a1.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5zvja5\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30152 for x86
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          CheckIncludeFile.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c74a1.dir\\Debug\\\\" /Fd"cmTC_c74a1.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5zvja5\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5zvja5\\Debug\\cmTC_c74a1.exe" /INCREMENTAL /ILK:"cmTC_c74a1.dir\\Debug\\cmTC_c74a1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-5zvja5/Debug/cmTC_c74a1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-5zvja5/Debug/cmTC_c74a1.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_c74a1.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_c74a1.vcxproj -> C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5zvja5\\Debug\\cmTC_c74a1.exe
+        FinalizeBuildStatus:
+          正在刪除檔案 "cmTC_c74a1.dir\\Debug\\cmTC_c74a1.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_c74a1.dir\\Debug\\cmTC_c74a1.tlog\\cmTC_c74a1.lastbuildstate"。
+        專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5zvja5\\cmTC_c74a1.vcxproj" (預設目標) 建置完成。
+        
+        建置成功。
+            0 個警告
+            0 個錯誤
+        
+        經過時間 00:00:00.65
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "lib/sdl2/CMakeLists.txt:1729 (check_include_file)"
+    checks:
+      - "Looking for dsound.h"
+    directories:
+      source: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-bptzr9"
+      binary: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-bptzr9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main/lib/sdl2/cmake"
+    buildResult:
+      variable: "HAVE_DSOUND_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-bptzr9'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_b8c6b.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine for .NET Framework 16.11.2+f32259642 版
+        Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+        
+        已經開始建置於 2024/1/17 下午 11:05:06。
+        節點 1 (預設目標) 上的專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bptzr9\\cmTC_b8c6b.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_b8c6b.dir\\Debug\\"。
+          正在建立目錄 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bptzr9\\Debug\\"。
+          正在建立目錄 "cmTC_b8c6b.dir\\Debug\\cmTC_b8c6b.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_b8c6b.dir\\Debug\\cmTC_b8c6b.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b8c6b.dir\\Debug\\\\" /Fd"cmTC_b8c6b.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bptzr9\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30152 for x86
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          CheckIncludeFile.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b8c6b.dir\\Debug\\\\" /Fd"cmTC_b8c6b.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bptzr9\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bptzr9\\Debug\\cmTC_b8c6b.exe" /INCREMENTAL /ILK:"cmTC_b8c6b.dir\\Debug\\cmTC_b8c6b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-bptzr9/Debug/cmTC_b8c6b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-bptzr9/Debug/cmTC_b8c6b.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_b8c6b.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_b8c6b.vcxproj -> C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bptzr9\\Debug\\cmTC_b8c6b.exe
+        FinalizeBuildStatus:
+          正在刪除檔案 "cmTC_b8c6b.dir\\Debug\\cmTC_b8c6b.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_b8c6b.dir\\Debug\\cmTC_b8c6b.tlog\\cmTC_b8c6b.lastbuildstate"。
+        專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bptzr9\\cmTC_b8c6b.vcxproj" (預設目標) 建置完成。
+        
+        建置成功。
+            0 個警告
+            0 個錯誤
+        
+        經過時間 00:00:00.63
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "lib/sdl2/CMakeLists.txt:1730 (check_include_file)"
+    checks:
+      - "Looking for dinput.h"
+    directories:
+      source: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-rkw39p"
+      binary: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-rkw39p"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main/lib/sdl2/cmake"
+    buildResult:
+      variable: "HAVE_DINPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-rkw39p'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_244e9.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine for .NET Framework 16.11.2+f32259642 版
+        Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+        
+        已經開始建置於 2024/1/17 下午 11:05:07。
+        節點 1 (預設目標) 上的專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rkw39p\\cmTC_244e9.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_244e9.dir\\Debug\\"。
+          正在建立目錄 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rkw39p\\Debug\\"。
+          正在建立目錄 "cmTC_244e9.dir\\Debug\\cmTC_244e9.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_244e9.dir\\Debug\\cmTC_244e9.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_244e9.dir\\Debug\\\\" /Fd"cmTC_244e9.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rkw39p\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30152 for x86
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          CheckIncludeFile.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_244e9.dir\\Debug\\\\" /Fd"cmTC_244e9.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rkw39p\\CheckIncludeFile.c"
+          C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um\\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rkw39p\\Debug\\cmTC_244e9.exe" /INCREMENTAL /ILK:"cmTC_244e9.dir\\Debug\\cmTC_244e9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-rkw39p/Debug/cmTC_244e9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-rkw39p/Debug/cmTC_244e9.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_244e9.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_244e9.vcxproj -> C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rkw39p\\Debug\\cmTC_244e9.exe
+        FinalizeBuildStatus:
+          正在刪除檔案 "cmTC_244e9.dir\\Debug\\cmTC_244e9.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_244e9.dir\\Debug\\cmTC_244e9.tlog\\cmTC_244e9.lastbuildstate"。
+        專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rkw39p\\cmTC_244e9.vcxproj" (預設目標) 建置完成。
+        
+        建置成功。
+            0 個警告
+            0 個錯誤
+        
+        經過時間 00:00:00.64
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "lib/sdl2/CMakeLists.txt:1734 (check_include_file)"
+    checks:
+      - "Looking for dxgi.h"
+    directories:
+      source: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-2ehj5w"
+      binary: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-2ehj5w"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main/lib/sdl2/cmake"
+    buildResult:
+      variable: "HAVE_DXGI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-2ehj5w'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_07084.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine for .NET Framework 16.11.2+f32259642 版
+        Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+        
+        已經開始建置於 2024/1/17 下午 11:05:08。
+        節點 1 (預設目標) 上的專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2ehj5w\\cmTC_07084.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_07084.dir\\Debug\\"。
+          正在建立目錄 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2ehj5w\\Debug\\"。
+          正在建立目錄 "cmTC_07084.dir\\Debug\\cmTC_07084.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_07084.dir\\Debug\\cmTC_07084.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_07084.dir\\Debug\\\\" /Fd"cmTC_07084.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2ehj5w\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30152 for x86
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          CheckIncludeFile.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_07084.dir\\Debug\\\\" /Fd"cmTC_07084.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2ehj5w\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2ehj5w\\Debug\\cmTC_07084.exe" /INCREMENTAL /ILK:"cmTC_07084.dir\\Debug\\cmTC_07084.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-2ehj5w/Debug/cmTC_07084.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-2ehj5w/Debug/cmTC_07084.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_07084.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_07084.vcxproj -> C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2ehj5w\\Debug\\cmTC_07084.exe
+        FinalizeBuildStatus:
+          正在刪除檔案 "cmTC_07084.dir\\Debug\\cmTC_07084.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_07084.dir\\Debug\\cmTC_07084.tlog\\cmTC_07084.lastbuildstate"。
+        專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2ehj5w\\cmTC_07084.vcxproj" (預設目標) 建置完成。
+        
+        建置成功。
+            0 個警告
+            0 個錯誤
+        
+        經過時間 00:00:00.64
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "lib/sdl2/CMakeLists.txt:1748 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_XINPUT_H"
+    directories:
+      source: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-u05bk6"
+      binary: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-u05bk6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main/lib/sdl2/cmake"
+    buildResult:
+      variable: "HAVE_XINPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-u05bk6'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_b5d9a.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine for .NET Framework 16.11.2+f32259642 版
+        Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+        
+        已經開始建置於 2024/1/17 下午 11:05:09。
+        節點 1 (預設目標) 上的專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u05bk6\\cmTC_b5d9a.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_b5d9a.dir\\Debug\\"。
+          正在建立目錄 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u05bk6\\Debug\\"。
+          正在建立目錄 "cmTC_b5d9a.dir\\Debug\\cmTC_b5d9a.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_b5d9a.dir\\Debug\\cmTC_b5d9a.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_XINPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b5d9a.dir\\Debug\\\\" /Fd"cmTC_b5d9a.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u05bk6\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30152 for x86
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          src.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_XINPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b5d9a.dir\\Debug\\\\" /Fd"cmTC_b5d9a.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u05bk6\\src.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u05bk6\\Debug\\cmTC_b5d9a.exe" /INCREMENTAL /ILK:"cmTC_b5d9a.dir\\Debug\\cmTC_b5d9a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-u05bk6/Debug/cmTC_b5d9a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-u05bk6/Debug/cmTC_b5d9a.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_b5d9a.dir\\Debug\\src.obj
+          cmTC_b5d9a.vcxproj -> C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u05bk6\\Debug\\cmTC_b5d9a.exe
+        FinalizeBuildStatus:
+          正在刪除檔案 "cmTC_b5d9a.dir\\Debug\\cmTC_b5d9a.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_b5d9a.dir\\Debug\\cmTC_b5d9a.tlog\\cmTC_b5d9a.lastbuildstate"。
+        專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-u05bk6\\cmTC_b5d9a.vcxproj" (預設目標) 建置完成。
+        
+        建置成功。
+            0 個警告
+            0 個錯誤
+        
+        經過時間 00:00:00.62
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "lib/sdl2/CMakeLists.txt:1752 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_XINPUT_GAMEPAD_EX"
+    directories:
+      source: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-tdotb5"
+      binary: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-tdotb5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main/lib/sdl2/cmake"
+    buildResult:
+      variable: "HAVE_XINPUT_GAMEPAD_EX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-tdotb5'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_afa67.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine for .NET Framework 16.11.2+f32259642 版
+        Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+        
+        已經開始建置於 2024/1/17 下午 11:05:09。
+        節點 1 (預設目標) 上的專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tdotb5\\cmTC_afa67.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_afa67.dir\\Debug\\"。
+          正在建立目錄 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tdotb5\\Debug\\"。
+          正在建立目錄 "cmTC_afa67.dir\\Debug\\cmTC_afa67.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_afa67.dir\\Debug\\cmTC_afa67.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_XINPUT_GAMEPAD_EX /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_afa67.dir\\Debug\\\\" /Fd"cmTC_afa67.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tdotb5\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30152 for x86
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          src.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_XINPUT_GAMEPAD_EX /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_afa67.dir\\Debug\\\\" /Fd"cmTC_afa67.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tdotb5\\src.c"
+        C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tdotb5\\src.c(4,25): error C2061: 語法錯誤: 識別項 'x1' [C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tdotb5\\cmTC_afa67.vcxproj]
+        C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tdotb5\\src.c(4,25): error C2059: 語法錯誤: ';' [C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tdotb5\\cmTC_afa67.vcxproj]
+        專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tdotb5\\cmTC_afa67.vcxproj" (預設目標) 建置完成 -- 失敗。
+        
+        建置失敗。
+        
+        "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tdotb5\\cmTC_afa67.vcxproj" (預設目標) (1) ->
+        (ClCompile 目標) -> 
+          C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tdotb5\\src.c(4,25): error C2061: 語法錯誤: 識別項 'x1' [C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tdotb5\\cmTC_afa67.vcxproj]
+          C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tdotb5\\src.c(4,25): error C2059: 語法錯誤: ';' [C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tdotb5\\cmTC_afa67.vcxproj]
+        
+            0 個警告
+            2 個錯誤
+        
+        經過時間 00:00:00.48
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "lib/sdl2/CMakeLists.txt:1757 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_XINPUT_STATE_EX"
+    directories:
+      source: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-d9z665"
+      binary: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-d9z665"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main/lib/sdl2/cmake"
+    buildResult:
+      variable: "HAVE_XINPUT_STATE_EX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-d9z665'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_52405.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine for .NET Framework 16.11.2+f32259642 版
+        Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+        
+        已經開始建置於 2024/1/17 下午 11:05:10。
+        節點 1 (預設目標) 上的專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9z665\\cmTC_52405.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_52405.dir\\Debug\\"。
+          正在建立目錄 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9z665\\Debug\\"。
+          正在建立目錄 "cmTC_52405.dir\\Debug\\cmTC_52405.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_52405.dir\\Debug\\cmTC_52405.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_XINPUT_STATE_EX /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_52405.dir\\Debug\\\\" /Fd"cmTC_52405.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9z665\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30152 for x86
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          src.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_XINPUT_STATE_EX /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_52405.dir\\Debug\\\\" /Fd"cmTC_52405.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9z665\\src.c"
+        C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9z665\\src.c(4,23): error C2061: 語法錯誤: 識別項 's1' [C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9z665\\cmTC_52405.vcxproj]
+        C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9z665\\src.c(4,23): error C2059: 語法錯誤: ';' [C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9z665\\cmTC_52405.vcxproj]
+        專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9z665\\cmTC_52405.vcxproj" (預設目標) 建置完成 -- 失敗。
+        
+        建置失敗。
+        
+        "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9z665\\cmTC_52405.vcxproj" (預設目標) (1) ->
+        (ClCompile 目標) -> 
+          C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9z665\\src.c(4,23): error C2061: 語法錯誤: 識別項 's1' [C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9z665\\cmTC_52405.vcxproj]
+          C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9z665\\src.c(4,23): error C2059: 語法錯誤: ';' [C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d9z665\\cmTC_52405.vcxproj]
+        
+            0 個警告
+            2 個錯誤
+        
+        經過時間 00:00:00.45
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "lib/sdl2/CMakeLists.txt:1762 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_WINDOWS_GAMING_INPUT_H"
+    directories:
+      source: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-h982dk"
+      binary: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-h982dk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main/lib/sdl2/cmake"
+    buildResult:
+      variable: "HAVE_WINDOWS_GAMING_INPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-h982dk'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_d3212.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine for .NET Framework 16.11.2+f32259642 版
+        Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+        
+        已經開始建置於 2024/1/17 下午 11:05:11。
+        節點 1 (預設目標) 上的專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h982dk\\cmTC_d3212.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_d3212.dir\\Debug\\"。
+          正在建立目錄 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h982dk\\Debug\\"。
+          正在建立目錄 "cmTC_d3212.dir\\Debug\\cmTC_d3212.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_d3212.dir\\Debug\\cmTC_d3212.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_WINDOWS_GAMING_INPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d3212.dir\\Debug\\\\" /Fd"cmTC_d3212.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h982dk\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30152 for x86
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          src.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_WINDOWS_GAMING_INPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d3212.dir\\Debug\\\\" /Fd"cmTC_d3212.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h982dk\\src.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h982dk\\Debug\\cmTC_d3212.exe" /INCREMENTAL /ILK:"cmTC_d3212.dir\\Debug\\cmTC_d3212.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-h982dk/Debug/cmTC_d3212.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-h982dk/Debug/cmTC_d3212.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_d3212.dir\\Debug\\src.obj
+          cmTC_d3212.vcxproj -> C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h982dk\\Debug\\cmTC_d3212.exe
+        FinalizeBuildStatus:
+          正在刪除檔案 "cmTC_d3212.dir\\Debug\\cmTC_d3212.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_d3212.dir\\Debug\\cmTC_d3212.tlog\\cmTC_d3212.lastbuildstate"。
+        專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h982dk\\cmTC_d3212.vcxproj" (預設目標) 建置完成。
+        
+        建置成功。
+            0 個警告
+            0 個錯誤
+        
+        經過時間 00:00:01.29
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "lib/sdl2/CMakeLists.txt:1770 (check_include_file)"
+    checks:
+      - "Looking for tpcshrd.h"
+    directories:
+      source: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-lw1mdv"
+      binary: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-lw1mdv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main/lib/sdl2/cmake"
+    buildResult:
+      variable: "HAVE_TPCSHRD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-lw1mdv'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_ddd55.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine for .NET Framework 16.11.2+f32259642 版
+        Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+        
+        已經開始建置於 2024/1/17 下午 11:05:12。
+        節點 1 (預設目標) 上的專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lw1mdv\\cmTC_ddd55.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_ddd55.dir\\Debug\\"。
+          正在建立目錄 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lw1mdv\\Debug\\"。
+          正在建立目錄 "cmTC_ddd55.dir\\Debug\\cmTC_ddd55.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_ddd55.dir\\Debug\\cmTC_ddd55.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ddd55.dir\\Debug\\\\" /Fd"cmTC_ddd55.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lw1mdv\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30152 for x86
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          CheckIncludeFile.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ddd55.dir\\Debug\\\\" /Fd"cmTC_ddd55.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lw1mdv\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lw1mdv\\Debug\\cmTC_ddd55.exe" /INCREMENTAL /ILK:"cmTC_ddd55.dir\\Debug\\cmTC_ddd55.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-lw1mdv/Debug/cmTC_ddd55.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-lw1mdv/Debug/cmTC_ddd55.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_ddd55.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_ddd55.vcxproj -> C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lw1mdv\\Debug\\cmTC_ddd55.exe
+        FinalizeBuildStatus:
+          正在刪除檔案 "cmTC_ddd55.dir\\Debug\\cmTC_ddd55.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_ddd55.dir\\Debug\\cmTC_ddd55.tlog\\cmTC_ddd55.lastbuildstate"。
+        專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lw1mdv\\cmTC_ddd55.vcxproj" (預設目標) 建置完成。
+        
+        建置成功。
+            0 個警告
+            0 個錯誤
+        
+        經過時間 00:00:00.68
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "lib/sdl2/CMakeLists.txt:1771 (check_include_file)"
+    checks:
+      - "Looking for roapi.h"
+    directories:
+      source: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-nty8km"
+      binary: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-nty8km"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main/lib/sdl2/cmake"
+    buildResult:
+      variable: "HAVE_ROAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-nty8km'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_d3ba7.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine for .NET Framework 16.11.2+f32259642 版
+        Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+        
+        已經開始建置於 2024/1/17 下午 11:05:13。
+        節點 1 (預設目標) 上的專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nty8km\\cmTC_d3ba7.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_d3ba7.dir\\Debug\\"。
+          正在建立目錄 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nty8km\\Debug\\"。
+          正在建立目錄 "cmTC_d3ba7.dir\\Debug\\cmTC_d3ba7.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_d3ba7.dir\\Debug\\cmTC_d3ba7.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d3ba7.dir\\Debug\\\\" /Fd"cmTC_d3ba7.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nty8km\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30152 for x86
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          CheckIncludeFile.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d3ba7.dir\\Debug\\\\" /Fd"cmTC_d3ba7.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nty8km\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nty8km\\Debug\\cmTC_d3ba7.exe" /INCREMENTAL /ILK:"cmTC_d3ba7.dir\\Debug\\cmTC_d3ba7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-nty8km/Debug/cmTC_d3ba7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-nty8km/Debug/cmTC_d3ba7.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_d3ba7.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_d3ba7.vcxproj -> C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nty8km\\Debug\\cmTC_d3ba7.exe
+        FinalizeBuildStatus:
+          正在刪除檔案 "cmTC_d3ba7.dir\\Debug\\cmTC_d3ba7.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_d3ba7.dir\\Debug\\cmTC_d3ba7.tlog\\cmTC_d3ba7.lastbuildstate"。
+        專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nty8km\\cmTC_d3ba7.vcxproj" (預設目標) 建置完成。
+        
+        建置成功。
+            0 個警告
+            0 個錯誤
+        
+        經過時間 00:00:00.65
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "lib/sdl2/CMakeLists.txt:1772 (check_include_file)"
+    checks:
+      - "Looking for mmdeviceapi.h"
+    directories:
+      source: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-bnlrde"
+      binary: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-bnlrde"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main/lib/sdl2/cmake"
+    buildResult:
+      variable: "HAVE_MMDEVICEAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-bnlrde'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_be8b6.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine for .NET Framework 16.11.2+f32259642 版
+        Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+        
+        已經開始建置於 2024/1/17 下午 11:05:14。
+        節點 1 (預設目標) 上的專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bnlrde\\cmTC_be8b6.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_be8b6.dir\\Debug\\"。
+          正在建立目錄 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bnlrde\\Debug\\"。
+          正在建立目錄 "cmTC_be8b6.dir\\Debug\\cmTC_be8b6.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_be8b6.dir\\Debug\\cmTC_be8b6.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_be8b6.dir\\Debug\\\\" /Fd"cmTC_be8b6.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bnlrde\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30152 for x86
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          CheckIncludeFile.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_be8b6.dir\\Debug\\\\" /Fd"cmTC_be8b6.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bnlrde\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bnlrde\\Debug\\cmTC_be8b6.exe" /INCREMENTAL /ILK:"cmTC_be8b6.dir\\Debug\\cmTC_be8b6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-bnlrde/Debug/cmTC_be8b6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-bnlrde/Debug/cmTC_be8b6.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_be8b6.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_be8b6.vcxproj -> C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bnlrde\\Debug\\cmTC_be8b6.exe
+        FinalizeBuildStatus:
+          正在刪除檔案 "cmTC_be8b6.dir\\Debug\\cmTC_be8b6.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_be8b6.dir\\Debug\\cmTC_be8b6.tlog\\cmTC_be8b6.lastbuildstate"。
+        專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bnlrde\\cmTC_be8b6.vcxproj" (預設目標) 建置完成。
+        
+        建置成功。
+            0 個警告
+            0 個錯誤
+        
+        經過時間 00:00:00.62
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "lib/sdl2/CMakeLists.txt:1773 (check_include_file)"
+    checks:
+      - "Looking for audioclient.h"
+    directories:
+      source: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-aru7kt"
+      binary: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-aru7kt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main/lib/sdl2/cmake"
+    buildResult:
+      variable: "HAVE_AUDIOCLIENT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-aru7kt'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_260fc.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine for .NET Framework 16.11.2+f32259642 版
+        Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+        
+        已經開始建置於 2024/1/17 下午 11:05:15。
+        節點 1 (預設目標) 上的專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aru7kt\\cmTC_260fc.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_260fc.dir\\Debug\\"。
+          正在建立目錄 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aru7kt\\Debug\\"。
+          正在建立目錄 "cmTC_260fc.dir\\Debug\\cmTC_260fc.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_260fc.dir\\Debug\\cmTC_260fc.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_260fc.dir\\Debug\\\\" /Fd"cmTC_260fc.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aru7kt\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30152 for x86
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          CheckIncludeFile.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_260fc.dir\\Debug\\\\" /Fd"cmTC_260fc.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aru7kt\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aru7kt\\Debug\\cmTC_260fc.exe" /INCREMENTAL /ILK:"cmTC_260fc.dir\\Debug\\cmTC_260fc.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-aru7kt/Debug/cmTC_260fc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-aru7kt/Debug/cmTC_260fc.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_260fc.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_260fc.vcxproj -> C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aru7kt\\Debug\\cmTC_260fc.exe
+        FinalizeBuildStatus:
+          正在刪除檔案 "cmTC_260fc.dir\\Debug\\cmTC_260fc.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_260fc.dir\\Debug\\cmTC_260fc.tlog\\cmTC_260fc.lastbuildstate"。
+        專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aru7kt\\cmTC_260fc.vcxproj" (預設目標) 建置完成。
+        
+        建置成功。
+            0 個警告
+            0 個錯誤
+        
+        經過時間 00:00:00.64
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "lib/sdl2/CMakeLists.txt:1774 (check_include_file)"
+    checks:
+      - "Looking for sensorsapi.h"
+    directories:
+      source: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-nlmsph"
+      binary: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-nlmsph"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main/lib/sdl2/cmake"
+    buildResult:
+      variable: "HAVE_SENSORSAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-nlmsph'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_4a929.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine for .NET Framework 16.11.2+f32259642 版
+        Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+        
+        已經開始建置於 2024/1/17 下午 11:05:16。
+        節點 1 (預設目標) 上的專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nlmsph\\cmTC_4a929.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_4a929.dir\\Debug\\"。
+          正在建立目錄 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nlmsph\\Debug\\"。
+          正在建立目錄 "cmTC_4a929.dir\\Debug\\cmTC_4a929.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_4a929.dir\\Debug\\cmTC_4a929.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4a929.dir\\Debug\\\\" /Fd"cmTC_4a929.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nlmsph\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30152 for x86
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          CheckIncludeFile.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4a929.dir\\Debug\\\\" /Fd"cmTC_4a929.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nlmsph\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nlmsph\\Debug\\cmTC_4a929.exe" /INCREMENTAL /ILK:"cmTC_4a929.dir\\Debug\\cmTC_4a929.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-nlmsph/Debug/cmTC_4a929.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-nlmsph/Debug/cmTC_4a929.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_4a929.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_4a929.vcxproj -> C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nlmsph\\Debug\\cmTC_4a929.exe
+        FinalizeBuildStatus:
+          正在刪除檔案 "cmTC_4a929.dir\\Debug\\cmTC_4a929.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_4a929.dir\\Debug\\cmTC_4a929.tlog\\cmTC_4a929.lastbuildstate"。
+        專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nlmsph\\cmTC_4a929.vcxproj" (預設目標) 建置完成。
+        
+        建置成功。
+            0 個警告
+            0 個錯誤
+        
+        經過時間 00:00:00.62
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "lib/sdl2/CMakeLists.txt:1775 (check_include_file)"
+    checks:
+      - "Looking for shellscalingapi.h"
+    directories:
+      source: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-64ejyf"
+      binary: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-64ejyf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/Users/USER/Desktop/OOP/practical-tools-for-simple-design-main/lib/sdl2/cmake"
+    buildResult:
+      variable: "HAVE_SHELLSCALINGAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-64ejyf'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_5e063.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine for .NET Framework 16.11.2+f32259642 版
+        Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+        
+        已經開始建置於 2024/1/17 下午 11:05:16。
+        節點 1 (預設目標) 上的專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-64ejyf\\cmTC_5e063.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_5e063.dir\\Debug\\"。
+          正在建立目錄 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-64ejyf\\Debug\\"。
+          正在建立目錄 "cmTC_5e063.dir\\Debug\\cmTC_5e063.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_5e063.dir\\Debug\\cmTC_5e063.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5e063.dir\\Debug\\\\" /Fd"cmTC_5e063.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-64ejyf\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30152 for x86
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          CheckIncludeFile.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5e063.dir\\Debug\\\\" /Fd"cmTC_5e063.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-64ejyf\\CheckIncludeFile.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-64ejyf\\Debug\\cmTC_5e063.exe" /INCREMENTAL /ILK:"cmTC_5e063.dir\\Debug\\cmTC_5e063.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-64ejyf/Debug/cmTC_5e063.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-64ejyf/Debug/cmTC_5e063.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_5e063.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_5e063.vcxproj -> C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-64ejyf\\Debug\\cmTC_5e063.exe
+        FinalizeBuildStatus:
+          正在刪除檔案 "cmTC_5e063.dir\\Debug\\cmTC_5e063.tlog\\unsuccessfulbuild"。
+          正在變更時間戳記 "cmTC_5e063.dir\\Debug\\cmTC_5e063.tlog\\cmTC_5e063.lastbuildstate"。
+        專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-64ejyf\\cmTC_5e063.vcxproj" (預設目標) 建置完成。
+        
+        建置成功。
+            0 個警告
+            0 個錯誤
+        
+        經過時間 00:00:00.63
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "lib/spdlog/CMakeLists.txt:135 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-sv7hiv"
+      binary: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-sv7hiv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-sv7hiv'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_8cccd.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine for .NET Framework 16.11.2+f32259642 版
+        Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+        
+        已經開始建置於 2024/1/17 下午 11:05:36。
+        節點 1 (預設目標) 上的專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sv7hiv\\cmTC_8cccd.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_8cccd.dir\\Debug\\"。
+          正在建立目錄 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sv7hiv\\Debug\\"。
+          正在建立目錄 "cmTC_8cccd.dir\\Debug\\cmTC_8cccd.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_8cccd.dir\\Debug\\cmTC_8cccd.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8cccd.dir\\Debug\\\\" /Fd"cmTC_8cccd.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sv7hiv\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30152 for x86
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          src.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8cccd.dir\\Debug\\\\" /Fd"cmTC_8cccd.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sv7hiv\\src.c"
+        C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sv7hiv\\src.c(1,10): fatal error C1083: 無法開啟包含檔案: 'pthread.h': No such file or directory [C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sv7hiv\\cmTC_8cccd.vcxproj]
+        專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sv7hiv\\cmTC_8cccd.vcxproj" (預設目標) 建置完成 -- 失敗。
+        
+        建置失敗。
+        
+        "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sv7hiv\\cmTC_8cccd.vcxproj" (預設目標) (1) ->
+        (ClCompile 目標) -> 
+          C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sv7hiv\\src.c(1,10): fatal error C1083: 無法開啟包含檔案: 'pthread.h': No such file or directory [C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sv7hiv\\cmTC_8cccd.vcxproj]
+        
+            0 個警告
+            1 個錯誤
+        
+        經過時間 00:00:00.47
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "lib/spdlog/CMakeLists.txt:135 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-nqyswl"
+      binary: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-nqyswl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-nqyswl'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_40fc7.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine for .NET Framework 16.11.2+f32259642 版
+        Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+        
+        已經開始建置於 2024/1/17 下午 11:05:37。
+        節點 1 (預設目標) 上的專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nqyswl\\cmTC_40fc7.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_40fc7.dir\\Debug\\"。
+          正在建立目錄 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nqyswl\\Debug\\"。
+          正在建立目錄 "cmTC_40fc7.dir\\Debug\\cmTC_40fc7.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_40fc7.dir\\Debug\\cmTC_40fc7.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_40fc7.dir\\Debug\\\\" /Fd"cmTC_40fc7.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nqyswl\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30152 for x86
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          CheckFunctionExists.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_40fc7.dir\\Debug\\\\" /Fd"cmTC_40fc7.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nqyswl\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nqyswl\\Debug\\cmTC_40fc7.exe" /INCREMENTAL /ILK:"cmTC_40fc7.dir\\Debug\\cmTC_40fc7.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-nqyswl/Debug/cmTC_40fc7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-nqyswl/Debug/cmTC_40fc7.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_40fc7.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 無法開啟檔案 'pthreads.lib' [C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nqyswl\\cmTC_40fc7.vcxproj]
+        專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nqyswl\\cmTC_40fc7.vcxproj" (預設目標) 建置完成 -- 失敗。
+        
+        建置失敗。
+        
+        "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nqyswl\\cmTC_40fc7.vcxproj" (預設目標) (1) ->
+        (Link 目標) -> 
+          LINK : fatal error LNK1104: 無法開啟檔案 'pthreads.lib' [C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nqyswl\\cmTC_40fc7.vcxproj]
+        
+            0 個警告
+            1 個錯誤
+        
+        經過時間 00:00:00.38
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "lib/spdlog/CMakeLists.txt:135 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-n3ifgw"
+      binary: "C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-n3ifgw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-n3ifgw'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_bc26d.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n
+        Microsoft (R) Build Engine for .NET Framework 16.11.2+f32259642 版
+        Copyright (C) Microsoft Corporation. 著作權所有，並保留一切權利。
+        
+        已經開始建置於 2024/1/17 下午 11:05:38。
+        節點 1 (預設目標) 上的專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n3ifgw\\cmTC_bc26d.vcxproj"。
+        PrepareForBuild:
+          正在建立目錄 "cmTC_bc26d.dir\\Debug\\"。
+          正在建立目錄 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n3ifgw\\Debug\\"。
+          正在建立目錄 "cmTC_bc26d.dir\\Debug\\cmTC_bc26d.tlog\\"。
+        InitializeBuildStatus:
+          由於指定了 "AlwaysCreate"，因此正在建立 "cmTC_bc26d.dir\\Debug\\cmTC_bc26d.tlog\\unsuccessfulbuild"。
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bc26d.dir\\Debug\\\\" /Fd"cmTC_bc26d.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n3ifgw\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30152 for x86
+          Copyright (C) Microsoft Corporation.  著作權所有，並保留一切權利。
+          CheckFunctionExists.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bc26d.dir\\Debug\\\\" /Fd"cmTC_bc26d.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n3ifgw\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n3ifgw\\Debug\\cmTC_bc26d.exe" /INCREMENTAL /ILK:"cmTC_bc26d.dir\\Debug\\cmTC_bc26d.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-n3ifgw/Debug/cmTC_bc26d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/USER/Desktop/OOP/build/CMakeFiles/CMakeScratch/TryCompile-n3ifgw/Debug/cmTC_bc26d.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_bc26d.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 無法開啟檔案 'pthread.lib' [C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n3ifgw\\cmTC_bc26d.vcxproj]
+        專案 "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n3ifgw\\cmTC_bc26d.vcxproj" (預設目標) 建置完成 -- 失敗。
+        
+        建置失敗。
+        
+        "C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n3ifgw\\cmTC_bc26d.vcxproj" (預設目標) (1) ->
+        (Link 目標) -> 
+          LINK : fatal error LNK1104: 無法開啟檔案 'pthread.lib' [C:\\Users\\USER\\Desktop\\OOP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n3ifgw\\cmTC_bc26d.vcxproj]
+        
+            0 個警告
+            1 個錯誤
+        
+        經過時間 00:00:00.43
+        
+      exitCode: 1
+...
